@@ -13,7 +13,7 @@
             animateIn: 'fadeIn', // add this
             animateOut: 'fadeOut', // and this
             autoplay: true, // Autoplay
-            autoplayTimeout: 3000, // Durata tra ogni scorrimento (in millisecondi)
+            autoplayTimeout: 2500, // Durata tra ogni scorrimento (in millisecondi)
             autoplayHoverPause: true, // Metti in pausa l'autoplay quando il mouse si posiziona sul carosello
         });
         window.dispatchEvent(new Event('resize'));

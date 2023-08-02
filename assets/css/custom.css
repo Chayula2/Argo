@@ -67,3 +67,12 @@
     font-weight: 400;
     line-height: 150%; /* 30px */
 }
+
+.owl-carousel .owl-stage {
+    display: flex;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+    max-height: 100% !important;
+}
