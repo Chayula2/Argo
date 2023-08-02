@@ -1,0 +1,69 @@
+/* Stile opzionale per il wrapper del carosello */
+.owl-carousel-wrapper {
+    max-width: 100%; /* Imposta il carosello su tutta la larghezza disponibile */
+    margin: 0 auto;
+}
+/* Stile opzionale per le immagini nel carosello */
+.owl-carousel-item img {
+    max-width: 100%; /* Fai in modo che le immagini occupino l'intera larghezza del carosello */
+    height: auto;
+    object-fit: contain;
+}
+/* Stile per i puntini */
+.owl-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.owl-dots span{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.owl-dot {
+    font-size: 30px; /* Imposta la dimensione dei puntini */
+    line-height: 1;
+    text-indent: -999px;
+    cursor: pointer;
+    color: transparent;
+    transition: opacity 0.3s ease;
+}
+.owl-dot.active {
+    background-color: #333;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.argo-title{
+    text-align: center;
+    font-family: Outfit, serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 119.2%; /* 57.216px */
+}
+
+.argo-text{
+    color: #000;
+    text-align: center;
+    font-family: Poppins, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
