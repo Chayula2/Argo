@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825787d3-e795-47a6-b7bd-97c0e9dc9de6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/media/Rectangle 4239.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/argo/Group 56.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/banners/faded-main-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/banners/faded-main-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/icons/telecamera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/banners/image 57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/image 31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/image 32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/image 33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/image 34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/image 35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/image 53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/image 54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/image 37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/image 38.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,27 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marco/Desktop/php-8.2.9-nts-Win32-vs16-x64/php.ini-production&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "last_opened_file_path": "C:/Users/Marco/Documents/GitHub/Argo/media/brands",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marco\Documents\GitHub\Argo\media\brands" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marco\Documents\GitHub\Argo\media\banners" />
+      <recent name="C:\Users\Marco\Documents\GitHub\Argo\media\icons" />
       <recent name="C:\Users\Marco\Documents\GitHub\Argo\media" />
       <recent name="C:\Users\Marco\Documents\GitHub\Argo\media\argo" />
-      <recent name="C:\Users\Marco\Documents\GitHub\Argo\media\icons" />
-      <recent name="C:\Users\Marco\Documents\GitHub\Argo\media\banners" />
       <recent name="C:\Users\Marco\Desktop\Argo\Argo\media" />
     </key>
   </component>
@@ -76,7 +83,7 @@
       <updated>1690966767502</updated>
       <workItem from="1690966773569" duration="6232000" />
       <workItem from="1691012732363" duration="2747000" />
-      <workItem from="1693134321726" duration="11743000" />
+      <workItem from="1693134321726" duration="14610000" />
     </task>
     <servers />
   </component>

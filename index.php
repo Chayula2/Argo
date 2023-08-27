@@ -276,7 +276,7 @@
 
     </div>
 
-    <!--COMING SOON-->
+    <!--MEET THE TEAM-->
     <div class="row" style="margin-top: 400px">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title">MEET THE TEAM</span><br>
@@ -314,20 +314,141 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
     <div class="row" style="margin-top: 200px">
         <div class="col-lg-8 col-md-8 col-sm-12 justify-content-center m-auto">
             <div class="row">
-                <div class="col-lg-4 col-lg-4 col-sm-12 text-center" style="margin-top: 50px;">
+                <div class="col-lg-4 col-lg-4 col-sm-12" style="margin-top: 50px;">
                     <img src="media/Rectangle%204239.png" class="m-auto d-block">
                     <br>
-                    <span class="argo-title font-weight-bold" style="font-size: 30px">LEONARDO BERTELLI</span>
+                    <span class="argo-title font-weight-bold" style="font-size: 30px">LEONARDO BERTELLI</span><br>
+                    <span class="argo-text" style="font-size: 30px">Robotics Engineer</span><br><br>
+                    <span class="argo-text" style="font-size: 20px;">During University he has joined Dynamis
+                    PRC and Skyward. The former designs and builds autonomous driving racing cars, the latter builds and launches rockets. He has
+                    2 years experience in the field of space robotics where he contributed to the NASA Mars Sample Return Campain.</span>
+                    <br><br>
+                    <img src="media/icons/image%2038.png">
+                    <img src="media/icons/image%2037.png">
                 </div>
+
                 <div class="col-lg-4 col-lg-4 col-sm-12" style="margin-top: 50px;">
                     <img src="media/Rectangle%204239.png" class="m-auto d-block">
+                    <br>
+                    <span class="argo-title font-weight-bold" style="font-size: 30px">LUCA ACQUATI</span><br>
+                    <span class="argo-text" style="font-size: 30px">Control Engineer</span><br><br>
+                    <span class="argo-text" style="font-size: 20px;">In his spare time, he has designed and built the control for an inverted pendulum and the flight code for a drone. He has 2 years experience in the automotive field, where he developed control algorithms for cutting edge brakes systems.</span>
+                    <br><br><br><br>
+                    <img src="media/icons/image%2038.png">
+                    <img src="media/icons/image%2037.png">
                 </div>
+
                 <div class="col-lg-4 col-lg-4 col-sm-12" style="margin-top: 50px;">
                     <img src="media/Rectangle%204239.png" class="m-auto d-block">
+                    <br>
+                    <span class="argo-title font-weight-bold" style="font-size: 30px">FEDERICO SARROCCO</span><br>
+                    <span class="argo-text" style="font-size: 30px">Computer Science Engineer</span><br><br>
+                    <span class="argo-text" style="font-size: 20px;">He has spent 4 years designing and building autonomous driving race cars in Dynamis PRC. He leads the Driverless Team, where he develops computer vision and deep
+                    learning algorithms to push the car as
+                    fast as possible.</span>
+                    <br><br><br>
+                    <img src="media/icons/image%2038.png">
+                    <img src="media/icons/image%2037.png">
                 </div>
             </div>
         </div>
     </div>
+
+    <!--MEET THE TEAM-->
+    <div class="row" style="margin-top: 400px">
+        <div class="col-12 px-0 text-center">
+            <span class="text-center argo-big-title" style="font-size: 25px !important;">SPOKE ABOUT US</span><br>
+        </div>
+    </div>
+
+    <div class="row mx-4" style="margin-top: 100px">
+
+        <div class="col-lg-3 col-sm-6" style="height: 200px;margin-top: 50px">
+            <img src="media/brands/image%2031.png" class="m-auto d-block">
+        </div>
+
+        <div class="col-lg-3 col-sm-6" style="height: 200px;margin-top: 50px">
+            <img src="media/brands/image%2032.png" class="m-auto d-block">
+        </div>
+
+        <div class="col-lg-3 col-sm-6" style="height: 200px;margin-top: 10px">
+            <img src="media/brands/image%2033.png" class="m-auto d-block">
+        </div>
+
+        <div class="col-lg-3 col-sm-6" style="height: 200px">
+            <img src="media/brands/image%2034.png" class="m-auto d-block">
+        </div>
+
+        <div class="col-lg-4 col-sm-6" style="height: 200px;margin-top: 40px">
+            <img src="media/brands/image%2035.png" class="m-auto d-block">
+        </div>
+
+        <div class="col-lg-4 col-sm-6" style="height: 200px;margin-top: 40px">
+            <img src="media/brands/image%2053.png" class="m-auto d-block">
+        </div>
+
+        <div class="col-lg-4 col-sm-6" style="height: 200px">
+            <img src="media/brands/image%2054.png" class="m-auto d-block">
+        </div>
+    </div>
+
+
+    <div style="margin-top: 400px"></div>
+    <div class="row justify-content-center m-auto">
+        <div class="col-12 px-0 text-center">
+            <span class="text-center argo-big-title">The future of domestic robotics</span><br>
+        </div>
+
+        <div class="col-6 mt-5 text-center">
+            <div class=" argo-title" style="padding-top: 70px; font-size: 25px">
+                What if the future of domestic robotics is an <b>open platform</b> where thousands of developers
+                can make Argo smarter and smarter everyday?
+                <hr style="width: 20%">
+                Like Android or IOS for smartphones...
+            </div>
+            <br><br><br><br>
+
+
+            <div class="col-lg-8 col-sm-12 d-block m-auto">
+                <img src="media/banners/image%2057.png" class="img-fluid" style="margin-top: 20px">
+            </div>
+
+            <div class=" argo-title" style="padding-top: 70px; font-size: 25px">
+                What if we can give you access to Argo sensors (camera, microphones, lights, ..) and basic Argo functionalities (voice, autonomous navigation, ..) to unleash your creativity?
+                <br><br>
+                Let’s say you are a video-security Company aiming at entering the consumer market.
+                Or let’s say you a Startup developing an ed-tech toy but manufacturing is simply too much to handle. Why not join the forces together?
+                <br><br>
+                Argo would enable you to forget about procurement, manufacturing and marketing to  focus only
+                on delivering a great software product, instantly available in every home.
+                <br><br>
+                Do you want to be one of the first <b>Companies</b> to be present on our platform?
+                <br><br>
+                We are looking forward to hearing to your idea, don’t hesitate in reaching us out!
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row  justify-content-center m-auto" style="margin-top: 100px">
+        <div class="col-lg-6 col-sm-12">
+            <input name="nameSubscription" type="text" class="form-control justify-content-center m-auto"
+                   placeholder="FULL NAME"
+                   style="border-radius: 15px;margin-top:90px !important;width: 600px;font-size: 20px;">
+
+            <input name="nameSubscription" type="text" class="form-control justify-content-center m-auto"
+                   placeholder="EMAIL ADDRESS"
+                   style="border-radius: 15px;margin-top:20px !important;width: 600px;font-size: 20px;">
+
+            <textarea name="nameSubscription" type="text" class="form-control justify-content-center m-auto"
+                   placeholder="TELL US YOUR IDEA"
+                      style="border-radius: 15px;margin-top:20px !important;width: 600px;min-height: 200px;font-size: 20px;"></textarea>
+
+            <input type="button" class="form-control justify-content-center m-auto text-white" value="SEND MESSAGE"
+                   style="border-radius: 15px;margin-top:30px !important;width: 200px;font-size: 20px;background-color: black">
+        </div>
+    </div>
+
 
     <div style="margin-bottom: 900px"></div>
 </div>
