@@ -194,11 +194,11 @@
         <div class="justify-content-center m-auto col-lg-6 col-md-6 col-sm-12">
             <div class="row" style="margin-top: 150px">
                 <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/route-1.png" height="50px" id="icons-21" onclick=""
+                    <img src="media/icons/foglio-1.png" height="50px" id="icons-21" onclick=""
                          class="icons d-block m-auto">
                 </div>
                 <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/chip-2.png" height="50px" id="icons-22" class="icons d-block m-auto">
+                    <img src="media/icons/cctv-2.png" height="50px" id="icons-22" class="icons d-block m-auto">
                 </div>
                 <div class="col-3 justify-content-center m-auto">
                     <img src="media/icons/battery-2.png" height="50px" id="icons-23" class="icons d-block m-auto">
@@ -233,10 +233,10 @@
 
     <script>
         document.getElementById("icons-21").addEventListener("click", function () {
-            document.getElementById("icons-21").src = "media/icons/route-1.png";
-            document.getElementById("icons-22").src = "media/icons/chip-2.png";
-            document.getElementById("icons-23").src = "media/icons/battery-2.png";
-            document.getElementById("icons-24").src = "media/icons/voice-2.png";
+            document.getElementById("icons-21").src = "media/icons/foglio-1.png";
+            document.getElementById("icons-22").src = "media/icons/cctv-2.png";
+            document.getElementById("icons-23").src = "media/icons/onde-2.png";
+            document.getElementById("icons-24").src = "media/icons/tmperatr-2.png";
 
             document.getElementById("text-21").classList.remove("d-none");
             document.getElementById("text-22").classList.add("d-none");
@@ -245,10 +245,10 @@
         });
 
         document.getElementById("icons-22").addEventListener("click", function () {
-            document.getElementById("icons-21").src = "media/icons/route-2.png";
-            document.getElementById("icons-22").src = "media/icons/chip-1.png";
-            document.getElementById("icons-23").src = "media/icons/battery-2.png";
-            document.getElementById("icons-24").src = "media/icons/voice-2.png";
+            document.getElementById("icons-21").src = "media/icons/foglio-2.png";
+            document.getElementById("icons-22").src = "media/icons/cctv-1.png";
+            document.getElementById("icons-23").src = "media/icons/onde-2.png";
+            document.getElementById("icons-24").src = "media/icons/tmperatr-2.png";
 
             document.getElementById("text-21").classList.add("d-none");
             document.getElementById("text-22").classList.remove("d-none");
@@ -257,10 +257,10 @@
         });
 
         document.getElementById("icons-23").addEventListener("click", function () {
-            document.getElementById("icons-21").src = "media/icons/route-2.png";
-            document.getElementById("icons-22").src = "media/icons/chip-2.png";
-            document.getElementById("icons-23").src = "media/icons/battery-1.png";
-            document.getElementById("icons-24").src = "media/icons/voice-2.png";
+            document.getElementById("icons-21").src = "media/icons/foglio-2.png";
+            document.getElementById("icons-22").src = "media/icons/cctv-2.png";
+            document.getElementById("icons-23").src = "media/icons/onde-1.png";
+            document.getElementById("icons-24").src = "media/icons/tmperatr-2.png";
 
             document.getElementById("text-21").classList.add("d-none");
             document.getElementById("text-22").classList.add("d-none");
@@ -269,10 +269,10 @@
         });
 
         document.getElementById("icons-24").addEventListener("click", function () {
-            document.getElementById("icons-21").src = "media/icons/route-2.png";
-            document.getElementById("icons-22").src = "media/icons/chip-2.png";
-            document.getElementById("icons-23").src = "media/icons/battery-2.png";
-            document.getElementById("icons-24").src = "media/icons/voice-1.png";
+            document.getElementById("icons-21").src = "media/icons/foglio-2.png";
+            document.getElementById("icons-22").src = "media/icons/cctv-2.png";
+            document.getElementById("icons-23").src = "media/icons/onde-2.png";
+            document.getElementById("icons-24").src = "media/icons/tmperatr-1.png";
 
             document.getElementById("text-21").classList.add("d-none");
             document.getElementById("text-22").classList.add("d-none");
@@ -299,17 +299,17 @@
         <div class="justify-content-center m-auto col-lg-6 col-md-6 col-sm-12">
             <div class="row" style="margin-top: 150px">
                 <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/route-1.png" height="50px" id="icons-31" onclick=""
+                    <img src="media/icons/sound-1.png" height="50px" id="icons-31" onclick=""
                          class="icons d-block m-auto">
                 </div>
                 <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/chip-2.png" height="50px" id="icons-32" class="icons d-block m-auto">
+                    <img src="media/icons/grade-2.png" height="50px" id="icons-32" class="icons d-block m-auto">
                 </div>
                 <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/battery-2.png" height="50px" id="icons-33" class="icons d-block m-auto">
+                    <img src="media/icons/gallery-2.png" height="50px" id="icons-33" class="icons d-block m-auto">
                 </div>
                 <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/voice-2.png" height="50px" id="icons-34" class="icons d-block m-auto">
+                    <img src="media/icons/beer-2.png" height="50px" id="icons-34" class="icons d-block m-auto">
                 </div>
             </div>
         </div>
@@ -338,10 +338,10 @@
 
     <script>
         document.getElementById("icons-31").addEventListener("click", function () {
-            document.getElementById("icons-31").src = "media/icons/route-1.png";
-            document.getElementById("icons-32").src = "media/icons/chip-2.png";
-            document.getElementById("icons-33").src = "media/icons/battery-2.png";
-            document.getElementById("icons-34").src = "media/icons/voice-2.png";
+            document.getElementById("icons-31").src = "media/icons/sound-1.png";
+            document.getElementById("icons-32").src = "media/icons/grade-2.png";
+            document.getElementById("icons-33").src = "media/icons/gallery-2.png";
+            document.getElementById("icons-34").src = "media/icons/beer-2.png";
 
             document.getElementById("text-31").classList.remove("d-none");
             document.getElementById("text-32").classList.add("d-none");
@@ -350,10 +350,10 @@
         });
 
         document.getElementById("icons-32").addEventListener("click", function () {
-            document.getElementById("icons-31").src = "media/icons/route-2.png";
-            document.getElementById("icons-32").src = "media/icons/chip-1.png";
-            document.getElementById("icons-33").src = "media/icons/battery-2.png";
-            document.getElementById("icons-34").src = "media/icons/voice-2.png";
+            document.getElementById("icons-31").src = "media/icons/sound-2.png";
+            document.getElementById("icons-32").src = "media/icons/grade-1.png";
+            document.getElementById("icons-33").src = "media/icons/gallery-2.png";
+            document.getElementById("icons-34").src = "media/icons/beer-2.png";
 
             document.getElementById("text-31").classList.add("d-none");
             document.getElementById("text-32").classList.remove("d-none");
@@ -362,10 +362,10 @@
         });
 
         document.getElementById("icons-33").addEventListener("click", function () {
-            document.getElementById("icons-31").src = "media/icons/route-2.png";
-            document.getElementById("icons-32").src = "media/icons/chip-2.png";
-            document.getElementById("icons-33").src = "media/icons/battery-1.png";
-            document.getElementById("icons-34").src = "media/icons/voice-2.png";
+            document.getElementById("icons-31").src = "media/icons/sound-2.png";
+            document.getElementById("icons-32").src = "media/icons/grade-2.png";
+            document.getElementById("icons-33").src = "media/icons/gallery-1.png";
+            document.getElementById("icons-34").src = "media/icons/beer-2.png";
 
             document.getElementById("text-31").classList.add("d-none");
             document.getElementById("text-32").classList.add("d-none");
@@ -374,10 +374,10 @@
         });
 
         document.getElementById("icons-34").addEventListener("click", function () {
-            document.getElementById("icons-31").src = "media/icons/route-2.png";
-            document.getElementById("icons-32").src = "media/icons/chip-2.png";
-            document.getElementById("icons-33").src = "media/icons/battery-2.png";
-            document.getElementById("icons-34").src = "media/icons/voice-1.png";
+            document.getElementById("icons-31").src = "media/icons/sound-2.png";
+            document.getElementById("icons-32").src = "media/icons/grade-2.png";
+            document.getElementById("icons-33").src = "media/icons/gallery-2.png";
+            document.getElementById("icons-34").src = "media/icons/beer-1.png";
 
             document.getElementById("text-31").classList.add("d-none");
             document.getElementById("text-32").classList.add("d-none");
@@ -387,82 +387,17 @@
     </script>
 
     <!--    wasnt enough-->
-    <!--    <div class="row" style="margin-top: 400px">-->
-    <!--        <div class="col-12 px-0 text-center">-->
-    <!--            <span class="text-center argo-big-title">WASN'T ENOUGH?</span><br>-->
-    <!--            <span class="argo-under-title">Argo is plenty of features!<br>Discover them all here below</span>-->
-    <!--        </div>-->
-    <!--    </div>-->
+        <div class="row" style="margin-top: 400px">
+            <div class="col-12 px-0 text-center">
+                <span class="text-center argo-big-title">WASN'T ENOUGH?</span><br>
+                <span class="argo-under-title">Argo is plenty of features!<br>Discover them all here below</span>
+                <br><br><br>
+            </div>
+            <div class="col-lg-6 col-sm-8 d-block m-auto">
+                <img src="media/banners/tmp-block12.png" class="img-fluid d-block m-auto" style="margin-top: 20px">
+            </div>
+        </div>
 
-    <!---->
-    <!--    <div class="row justify-content-center m-auto" style="margin-top: 50px">-->
-    <!--        <div class="col-lg-8 col-md-6 col-sm-12">-->
-    <!--            <div class="row text-center" style="margin-top: 100px">-->
-    <!--                <div class="col-4">-->
-    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
-    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
-    <!--                </div>-->
-    <!--                <div class="col-4">-->
-    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
-    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
-    <!--                </div>-->
-    <!--                <div class="col-4">-->
-    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
-    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
-    <!--                </div>-->
-    <!---->
-    <!--            </div>-->
-    <!---->
-    <!--            <div class="row text-center" style="margin-top: 100px">-->
-    <!--                <div class="col-4">-->
-    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
-    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
-    <!--                </div>-->
-    <!--                <div class="col-4">-->
-    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
-    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
-    <!--                </div>-->
-    <!--                <div class="col-4">-->
-    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
-    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
-    <!--                </div>-->
-    <!---->
-    <!--            </div>-->
-    <!---->
-    <!--            <div class="row text-center" style="margin-top: 100px">-->
-    <!--                <div class="col-4">-->
-    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
-    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
-    <!--                </div>-->
-    <!--                <div class="col-4">-->
-    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
-    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
-    <!--                </div>-->
-    <!--                <div class="col-4">-->
-    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
-    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
-    <!--                </div>-->
-    <!---->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-
-
-    <!--    <div class="row" style="margin-top: 400px">-->
-    <!--        <div class="col-12 px-0 text-center">-->
-    <!--            <span class="text-center argo-big-title">HOW IT'S MADE</span><br>-->
-    <!--        </div>-->
-    <!---->
-    <!--        <div class="col-6 mt-5 text-center">-->
-    <!--            <div class="font-weight-bold argo-title" style="padding-top: 70px;">-->
-    <!--                Technical component-->
-    <!--            </div>-->
-    <!--            <span class="argo-text text-center"-->
-    <!--                  style="padding-top: 70px;">Breve spiegazione per ogni singolo componente</span>-->
-    <!---->
-    <!--        </div>-->
-    <!--        <div class="col-6 mt-5"><img src="media/argo/Group%2056.png" class="m-auto d-block img-fluid"></div>-->
-    <!--    </div>-->
 
 
     <!--COMING SOON-->
@@ -575,6 +510,13 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
     </div>
     <!---->
 
+
+
+<!--    video-->
+<div class="row" style="margin-top: 400px">
+    <iframe class="d-block m-auto" width="960" height="540" src="https://www.youtube.com/embed/0Ftq9X3epLU?si=qaW2cDDUqex8RJyn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
     <!--    SPOKE ABOUT US-->
     <div class="row" style="margin-top: 400px">
         <div class="col-12 px-0 text-center">
@@ -617,10 +559,10 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
     <div style="margin-top: 400px"></div>
     <div class="row justify-content-center m-auto">
         <div class="col-12 px-0 text-center">
-            <span class="text-center argo-big-title">The future of domestic robotics</span><br>
+            <span class="text-center argo-big-title">PLATFORM</span><br>
         </div>
 
-        <div class="col-6 mt-5 text-center">
+        <div class="col-lg-6 col-sm-8 mt-5 text-center">
             <div class=" argo-title" style="padding-top: 70px; font-size: 25px">
                 What if the future of domestic robotics is an open platform where
                 <br>
@@ -637,7 +579,7 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
             <br><br><br><br>
 
 
-            <div class="col-lg-8 col-sm-12 d-block m-auto">
+            <div class="col-lg-6 col-sm-8 d-block m-auto">
                 <img src="media/banners/banner-lock.png" class="img-fluid" style="margin-top: 20px">
             </div>
 
@@ -645,7 +587,7 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
                 Let’s say you are a video-security Company aiming at entering the consumer market.
 <br>
                 Or let’s say you are a Startup developing an ed-tech toy but manufacturing is simply too much to handle.<br><br>
-                <b>Why not joining the forces together?</b><br><br>
+                <br><b>Why not joining the forces together?</b><br><br><br>
                 Argo would enable you to forget about procurement, manufacturing and marketing
 
                 to focus only on delivering a great software product, instantly available in everyone’s home.
@@ -662,15 +604,15 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
 
     <div class="row  justify-content-center m-auto" style="margin-top: 100px">
         <div class="col-lg-6 col-sm-12">
-            <input name="nameSubscription" type="text" class="form-control justify-content-center m-auto"
+            <input name="nameSubscription" type="text" class="form-control justify-content-center m-auto w-100"
                    placeholder="FULL NAME"
                    style="border-radius: 15px;margin-top:90px !important;width: 600px;font-size: 20px;">
 
-            <input name="nameSubscription" type="text" class="form-control justify-content-center m-auto"
+            <input name="nameSubscription" type="text" class="form-control justify-content-center m-auto w-100"
                    placeholder="EMAIL ADDRESS"
                    style="border-radius: 15px;margin-top:20px !important;width: 600px;font-size: 20px;">
 
-            <textarea name="nameSubscription" type="text" class="form-control justify-content-center m-auto"
+            <textarea name="nameSubscription" type="text" class="form-control justify-content-center m-auto w-100"
                       placeholder="TELL US YOUR IDEA"
                       style="border-radius: 15px;margin-top:20px !important;width: 600px;min-height: 200px;font-size: 20px;"></textarea>
 
@@ -680,7 +622,14 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
     </div>
 
 
-    <div style="margin-bottom: 600px"></div>
+    <div style="margin-bottom: 300px"></div>
+
+
+    <div class="row">
+        <div class="col-12" style="background-color: black;height: 200px">
+            <h5 class="argo-title d-block m-auto" style="color: white !important;padding-top: 80px">SPEAK ABOUT US!</h5>
+        </div>
+    </div>
 </div>
 
 </body>

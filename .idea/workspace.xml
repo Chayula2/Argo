@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825787d3-e795-47a6-b7bd-97c0e9dc9de6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/media/banners/banner-lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/banners/federico_sarrocco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/banners/luca_acquati.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/banners/tmp_banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/banners/tmp_banner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/banners/tmp_banner3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/banners/tmp_smart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/banners/tmp-block12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/beer-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/beer-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/cctv-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/cctv-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/foglio-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/foglio-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/gallery-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/gallery-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/grade-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/grade-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/onde-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/onde-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/sound-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/sound-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/tmperatr-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/tmperatr-2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/banners/banner-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/banners/banner-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/banners/banner-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/banners/tmp_banner1.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/banners/tmp_banner1.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +102,7 @@
       <workItem from="1693240521459" duration="1564000" />
       <workItem from="1695565259550" duration="4153000" />
       <workItem from="1695600837875" duration="2408000" />
+      <workItem from="1695679445151" duration="2284000" />
     </task>
     <servers />
   </component>
