@@ -1,57 +1,58 @@
 <?php include_once "theme/head.php"; ?>
+<style>
+    @media (min-width: 700px) {
+        .icons {
+            height: 80px;
+        }
+    }
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+</style>
 <body>
-
-<!--  menu-->
-<nav class="navbar navbar-expand-lg navbar-dark justify-content-center text-center" style="background-color: #000000">
-    <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse w-100" id="navbarNav">
-
-            <ul class="navbar-nav ml-auto text-center justify-content-center  m-auto">
-                <li class=" text-center mx-4">
-                    <a class="nav-link argo-text" href="#">DISCOVER</a>
-                </li>
-                <li class=" mx-4">
-                    <a class="nav-link argo-text" href="#">BUY</a>
-                </li>
-                <li class="">
-                    <a class="" href="#" style="margin-left: 70px;margin-right: 70px">
-                        <img height="40" src="media/logo.png">
-                    </a>
-                </li>
-                <li class=" mx-4">
-                    <a class="nav-link argo-text" href="#">ABOUT US</a>
-                </li>
-                <li class=" mx-4">
-                    <a class="nav-link argo-text" href="#">PLATFORM</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<!--  end menu-->
 
 
 <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark justify-content-center text-center"
+         style="background-color: #000000">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse w-100" id="navbarNav">
+
+                <ul class="navbar-nav ml-auto text-center justify-content-center  m-auto">
+                    <li class=" text-center mx-4">
+                        <a class="nav-link argo-text" href="#">DISCOVER</a>
+                    </li>
+                    <li class=" mx-4">
+                        <a class="nav-link argo-text" href="#">BUY</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="#" style="margin-left: 70px;margin-right: 70px">
+                            <img height="40" src="media/logo.png">
+                        </a>
+                    </li>
+                    <li class=" mx-4">
+                        <a class="nav-link argo-text" href="#">ABOUT US</a>
+                    </li>
+                    <li class=" mx-4">
+                        <a class="nav-link argo-text" href="#">PLATFORM</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- Wrapper del carosello -->
-    <div class="row justify-content-center m-auto">
+    <div class="row justify-content-center m-auto my-0" style="background-color: #000000;">
         <div class="col-12 px-0 justify-content-center m-auto">
             <div class="owl-carousel-wrapper">
                 <!-- Carosello -->
-                <div class="argo-title"
-                     style="position: absolute;color: white;z-index: 999;margin-top: 15%;font-weight: 800;font-size: 128px">
-                    A NEW WAY<br>
-                    TO LIVE<br>
-                    AT HOME
-                </div>
                 <div class="owl-carousel owl-theme">
-                    <div class="owl-carousel-item"><img src="media/banners/banner-1.png" alt="Argo Banner 1"></div>
-                    <div class="owl-carousel-item"><img src="media/banners/banner-2.png" alt="Argo Banner 2"></div>
-                    <div class="owl-carousel-item"><img src="media/banners/banner-3.png" alt="Argo Banner 3"></div>
+                    <div class="owl-carousel-item"><img src="media/banners/tmp_banner1.png" alt="Argo Banner 1"></div>
                 </div>
             </div>
         </div>
@@ -63,204 +64,409 @@
             <p class="argo-text" style="margin-top: 100px">Have you ever been worried about your elderly relatives
                 living alone, your children at home or your naughty pets? Are you always looking for new ways to have
                 fun with your family?
-
+                <br>
+                <br>
                 Argo can easily meet your needs. A smart companion robot equipped with sophisticated sensors and AI
-                algorithms to keep your home safe and entertain your family. Vocal assistant, video-surveillance and
-                autonomous navigation. This is just a taste of what this robot can do. Argo is the ideal companion
+                algorithms to keep your home safe and entertain your family.<br> Vocal assistant, video-surveillance and
+                autonomous navigation. <br>This is just a taste of what this robot can do. Argo is the ideal companion
                 whether you are at home or not.</p>
         </div>
     </div>
 
-    <!--foto faded-->
-    <img class="w-100 " style="margin-top: 200px" src="media/banners/faded-main-2.png">
-    <div class="row" style="margin-top: -200px">
-        <div class="col-12 px-0 text-center">
-            <span class="text-center argo-big-title">SMART</span><br>
-            <span class="argo-under-title">AN AI POWERED HOMEBOT</span>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="justify-content-center m-auto col-lg-6 col-md-6 col-sm-12">
-            <div class="row" style="margin-top: 150px">
-                <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/route-1.png" height="120px" class="d-block m-auto">
-                </div>
-                <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/chip-2.png" height="120px" class="d-block m-auto">
-                </div>
-                <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/battery-2.png" height="120px" class="d-block m-auto">
-                </div>
-                <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/voice-2.png" height="120px" class="d-block m-auto">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--    blocco con logica-->
-    <div class="row justify-content-center mt-5">
-        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center">
-            <span class="text-center font-weight-bold argo-title">Autonomous Navigation</span><br><br>
-            <span class="argo-text mt-4">Exploiting Lidar technology, Argo is capable of mapping your house. Once the map is ready, it will be able to move autonomously around your home, avoiding any obstacle it may encounter along its way.</span>
-        </div>
-    </div>
-
-    <!--foto faded 2-->
-    <img class="w-100 " style="margin-top: 200px" src="media/banners/faded-main-2.png">
-    <div class="row" style="margin-top: -200px">
-        <div class="col-12 px-0 text-center">
-            <span class="text-center argo-big-title">SMART</span><br>
-            <span class="argo-under-title">AN AI POWERED HOMEBOT</span>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="justify-content-center m-auto col-lg-6 col-md-6 col-sm-12">
-            <div class="row" style="margin-top: 150px">
-                <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/route-1.png" height="120px" class="d-block m-auto">
-                </div>
-                <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/chip-2.png" height="120px" class="d-block m-auto">
-                </div>
-                <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/battery-2.png" height="120px" class="d-block m-auto">
-                </div>
-                <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/voice-2.png" height="120px" class="d-block m-auto">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--    blocco con logica-->
-    <div class="row justify-content-center mt-5">
-        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center">
-            <span class="text-center font-weight-bold argo-title">Autonomous Navigation</span><br><br>
-            <span class="argo-text mt-4">Exploiting Lidar technology, Argo is capable of mapping your house. Once the map is ready, it will be able to move autonomously around your home, avoiding any obstacle it may encounter along its way.</span>
-        </div>
-    </div>
 
     <!--foto faded-->
-    <img class="w-100 " style="margin-top: 200px" src="media/banners/faded-main-2.png">
-    <div class="row" style="margin-top: -200px">
+    <div class="row mb-5 " style="margin-top: 200px">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title">SMART</span><br>
             <span class="argo-under-title">AN AI POWERED HOMEBOT</span>
         </div>
     </div>
+    <img class="w-80 m-auto justify-content-center d-block img-fluid px-5" style="margin-top: 200px;max-height: 650px"
+         src="media/banners/tmp_smart.png">
+
 
     <div class="row">
         <div class="justify-content-center m-auto col-lg-6 col-md-6 col-sm-12">
             <div class="row" style="margin-top: 150px">
                 <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/route-1.png" height="120px" class="d-block m-auto">
+                    <img src="media/icons/route-1.png" height="50px" id="icons-11" onclick=""
+                         class="icons d-block m-auto">
                 </div>
                 <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/chip-2.png" height="120px" class="d-block m-auto">
+                    <img src="media/icons/chip-2.png" height="50px" id="icons-12" class="icons d-block m-auto">
                 </div>
                 <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/battery-2.png" height="120px" class="d-block m-auto">
+                    <img src="media/icons/battery-2.png" height="50px" id="icons-13" class="icons d-block m-auto">
                 </div>
                 <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/voice-2.png" height="120px" class="d-block m-auto">
+                    <img src="media/icons/voice-2.png" height="50px" id="icons-14" class="icons d-block m-auto">
                 </div>
             </div>
         </div>
     </div>
 
     <!--    blocco con logica-->
-    <div class="row justify-content-center mt-5">
-        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center">
+    <div class="row justify-content-center mt-5 px-3">
+        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center" id="text-11">
             <span class="text-center font-weight-bold argo-title">Autonomous Navigation</span><br><br>
             <span class="argo-text mt-4">Exploiting Lidar technology, Argo is capable of mapping your house. Once the map is ready, it will be able to move autonomously around your home, avoiding any obstacle it may encounter along its way.</span>
         </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center d-none" id="text-12">
+            <span class="text-center font-weight-bold argo-title">AI TECHNOLOGY</span><br><br>
+            <span class="argo-text mt-4">Argo is provided with state-of-the-art AI technology, being able to see and perceive the whole surrounding environment. Argo can detect persons, pets and everyday objects that may appear in front of its eyes. You should try the function: “Hey Argo, follow me”.</span>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center d-none" id="text-13">
+            <span class="text-center font-weight-bold argo-title">Automatic Recharge</span><br><br>
+            <span class="argo-text mt-4">Don’t worry about having another device to plug-in and recharge. Thanks to autonomous navigation, Argo is able to find its way to the charging station once the battery is running out low.</span>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center d-none" id="text-14">
+            <span class="text-center font-weight-bold argo-title">Vocal Assistant</span><br><br>
+            <span class="argo-text mt-4">Argo is provided with state-of-the-art AI technology, being able to see and perceive the whole surrounding environment. Argo can detect persons, pets and everyday objects that may appear in front of its eyes. You should try the function: “Hey Argo, follow me”.</span>
+        </div>
     </div>
 
+
+    <script>
+        document.getElementById("icons-11").addEventListener("click", function () {
+            document.getElementById("icons-11").src = "media/icons/route-1.png";
+            document.getElementById("icons-12").src = "media/icons/chip-2.png";
+            document.getElementById("icons-13").src = "media/icons/battery-2.png";
+            document.getElementById("icons-14").src = "media/icons/voice-2.png";
+
+            document.getElementById("text-11").classList.remove("d-none");
+            document.getElementById("text-12").classList.add("d-none");
+            document.getElementById("text-13").classList.add("d-none");
+            document.getElementById("text-14").classList.add("d-none");
+        });
+
+        document.getElementById("icons-12").addEventListener("click", function () {
+            document.getElementById("icons-11").src = "media/icons/route-2.png";
+            document.getElementById("icons-12").src = "media/icons/chip-1.png";
+            document.getElementById("icons-13").src = "media/icons/battery-2.png";
+            document.getElementById("icons-14").src = "media/icons/voice-2.png";
+
+            document.getElementById("text-11").classList.add("d-none");
+            document.getElementById("text-12").classList.remove("d-none");
+            document.getElementById("text-13").classList.add("d-none");
+            document.getElementById("text-14").classList.add("d-none");
+        });
+
+        document.getElementById("icons-13").addEventListener("click", function () {
+            document.getElementById("icons-11").src = "media/icons/route-2.png";
+            document.getElementById("icons-12").src = "media/icons/chip-2.png";
+            document.getElementById("icons-13").src = "media/icons/battery-1.png";
+            document.getElementById("icons-14").src = "media/icons/voice-2.png";
+
+            document.getElementById("text-11").classList.add("d-none");
+            document.getElementById("text-12").classList.add("d-none");
+            document.getElementById("text-13").classList.remove("d-none");
+            document.getElementById("text-14").classList.add("d-none");
+        });
+
+        document.getElementById("icons-14").addEventListener("click", function () {
+            document.getElementById("icons-11").src = "media/icons/route-2.png";
+            document.getElementById("icons-12").src = "media/icons/chip-2.png";
+            document.getElementById("icons-13").src = "media/icons/battery-2.png";
+            document.getElementById("icons-14").src = "media/icons/voice-1.png";
+
+            document.getElementById("text-11").classList.add("d-none");
+            document.getElementById("text-12").classList.add("d-none");
+            document.getElementById("text-13").classList.add("d-none");
+            document.getElementById("text-14").classList.remove("d-none");
+        });
+    </script>
+
+
+    <!--foto faded-->
+    <div class="row mb-5" style="margin-top: 350px">
+        <div class="col-12 px-0 text-center">
+            <span class="text-center argo-big-title" style="overflow-wrap: break-word;
+            word-wrap: break-word;
+            word-break: break-word;">SECURITY</span><br>
+            <span class="argo-under-title">CONTROL YOUR HOME from everywhere</span>
+        </div>
+    </div>
+    <img class="w-80 m-auto justify-content-center d-block img-fluid px-5" style="margin-top: 200px;max-height: 650px"
+         src="media/banners/tmp_banner2.png">
+
+
+    <div class="row">
+        <div class="justify-content-center m-auto col-lg-6 col-md-6 col-sm-12">
+            <div class="row" style="margin-top: 150px">
+                <div class="col-3 justify-content-center m-auto">
+                    <img src="media/icons/route-1.png" height="50px" id="icons-21" onclick=""
+                         class="icons d-block m-auto">
+                </div>
+                <div class="col-3 justify-content-center m-auto">
+                    <img src="media/icons/chip-2.png" height="50px" id="icons-22" class="icons d-block m-auto">
+                </div>
+                <div class="col-3 justify-content-center m-auto">
+                    <img src="media/icons/battery-2.png" height="50px" id="icons-23" class="icons d-block m-auto">
+                </div>
+                <div class="col-3 justify-content-center m-auto">
+                    <img src="media/icons/voice-2.png" height="50px" id="icons-24" class="icons d-block m-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    blocco con logica-->
+    <div class="row justify-content-center mt-5 px-3">
+        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center" id="text-21">
+            <span class="text-center font-weight-bold argo-title">Remote Control</span><br><br>
+            <span class="argo-text mt-4">No matter where you are, thanks to Argo’s app you can always monitor what is going on in your house. Just move Argo around your home and check with your eyes that everything is under control.</span>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center d-none" id="text-22">
+            <span class="text-center font-weight-bold argo-title">Autonomous Home Patroling</span><br><br>
+            <span class="argo-text mt-4">Argo is also able to monitor your house fully autonomously. It will keep checking every corner in every room looking for suspicious activities. In case Argo finds something strange, it will push a notification to your phone reporting you about the problem detected.</span>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center d-none" id="text-23">
+            <span class="text-center font-weight-bold argo-title">Anomaly Sound Detection</span><br><br>
+            <span class="argo-text mt-4">Have you heard the sound of a glass breaking in your house? Or was it a baby crying? Don’t worry, Argo is able to recognize these sounds and report you what it is really going on.</span>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center d-none" id="text-24">
+            <span class="text-center font-weight-bold argo-title">Temperature and Gas Monitoring</span><br><br>
+            <span class="argo-text mt-4">“Did I close or not the stove?” Dangerous gas leakages will no longer be a problem. Argo will detect them and advise you in time before anything bad may happen to your family.</span>
+        </div>
+    </div>
+
+
+    <script>
+        document.getElementById("icons-21").addEventListener("click", function () {
+            document.getElementById("icons-21").src = "media/icons/route-1.png";
+            document.getElementById("icons-22").src = "media/icons/chip-2.png";
+            document.getElementById("icons-23").src = "media/icons/battery-2.png";
+            document.getElementById("icons-24").src = "media/icons/voice-2.png";
+
+            document.getElementById("text-21").classList.remove("d-none");
+            document.getElementById("text-22").classList.add("d-none");
+            document.getElementById("text-23").classList.add("d-none");
+            document.getElementById("text-24").classList.add("d-none");
+        });
+
+        document.getElementById("icons-22").addEventListener("click", function () {
+            document.getElementById("icons-21").src = "media/icons/route-2.png";
+            document.getElementById("icons-22").src = "media/icons/chip-1.png";
+            document.getElementById("icons-23").src = "media/icons/battery-2.png";
+            document.getElementById("icons-24").src = "media/icons/voice-2.png";
+
+            document.getElementById("text-21").classList.add("d-none");
+            document.getElementById("text-22").classList.remove("d-none");
+            document.getElementById("text-23").classList.add("d-none");
+            document.getElementById("text-24").classList.add("d-none");
+        });
+
+        document.getElementById("icons-23").addEventListener("click", function () {
+            document.getElementById("icons-21").src = "media/icons/route-2.png";
+            document.getElementById("icons-22").src = "media/icons/chip-2.png";
+            document.getElementById("icons-23").src = "media/icons/battery-1.png";
+            document.getElementById("icons-24").src = "media/icons/voice-2.png";
+
+            document.getElementById("text-21").classList.add("d-none");
+            document.getElementById("text-22").classList.add("d-none");
+            document.getElementById("text-23").classList.remove("d-none");
+            document.getElementById("text-24").classList.add("d-none");
+        });
+
+        document.getElementById("icons-24").addEventListener("click", function () {
+            document.getElementById("icons-21").src = "media/icons/route-2.png";
+            document.getElementById("icons-22").src = "media/icons/chip-2.png";
+            document.getElementById("icons-23").src = "media/icons/battery-2.png";
+            document.getElementById("icons-24").src = "media/icons/voice-1.png";
+
+            document.getElementById("text-21").classList.add("d-none");
+            document.getElementById("text-22").classList.add("d-none");
+            document.getElementById("text-23").classList.add("d-none");
+            document.getElementById("text-24").classList.remove("d-none");
+        });
+    </script>
+
+
+    <!--foto faded-->
+    <div class="row mb-5" style="margin-top: 350px">
+        <div class="col-12 px-0 text-center">
+            <span class="text-center argo-big-title" style="overflow-wrap: break-word;
+            word-wrap: break-word;
+            word-break: break-word;">ENTERTAINMENT</span><br>
+            <span class="argo-under-title">let ARGO bring more joy in YOUR DAILY LIFE</span>
+        </div>
+    </div>
+    <img class="w-80 m-auto justify-content-center d-block img-fluid px-5" style="margin-top: 200px;max-height: 650px"
+         src="media/banners/tmp_banner3.jpg">
+
+
+    <div class="row">
+        <div class="justify-content-center m-auto col-lg-6 col-md-6 col-sm-12">
+            <div class="row" style="margin-top: 150px">
+                <div class="col-3 justify-content-center m-auto">
+                    <img src="media/icons/route-1.png" height="50px" id="icons-31" onclick=""
+                         class="icons d-block m-auto">
+                </div>
+                <div class="col-3 justify-content-center m-auto">
+                    <img src="media/icons/chip-2.png" height="50px" id="icons-32" class="icons d-block m-auto">
+                </div>
+                <div class="col-3 justify-content-center m-auto">
+                    <img src="media/icons/battery-2.png" height="50px" id="icons-33" class="icons d-block m-auto">
+                </div>
+                <div class="col-3 justify-content-center m-auto">
+                    <img src="media/icons/voice-2.png" height="50px" id="icons-34" class="icons d-block m-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    blocco con logica-->
+    <div class="row justify-content-center mt-5  px-3">
+        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center" id="text-31">
+            <span class="text-center font-weight-bold argo-title">Remote Control</span><br><br>
+            <span class="argo-text mt-4">No matter where you are, thanks to Argo’s app you can always monitor what is going on in your house. Just move Argo around your home and check with your eyes that everything is under control.</span>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center d-none" id="text-32">
+            <span class="text-center font-weight-bold argo-title">Autonomous Home Patroling</span><br><br>
+            <span class="argo-text mt-4">Argo is also able to monitor your house fully autonomously. It will keep checking every corner in every room looking for suspicious activities. In case Argo finds something strange, it will push a notification to your phone reporting you about the problem detected.</span>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center d-none" id="text-33">
+            <span class="text-center font-weight-bold argo-title">Anomaly Sound Detection</span><br><br>
+            <span class="argo-text mt-4">Have you heard the sound of a glass breaking in your house? Or was it a baby crying? Don’t worry, Argo is able to recognize these sounds and report you what it is really going on.</span>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center d-none" id="text-34">
+            <span class="text-center font-weight-bold argo-title">Temperature and Gas Monitoring</span><br><br>
+            <span class="argo-text mt-4">“Did I close or not the stove?” Dangerous gas leakages will no longer be a problem. Argo will detect them and advise you in time before anything bad may happen to your family.</span>
+        </div>
+    </div>
+
+
+    <script>
+        document.getElementById("icons-31").addEventListener("click", function () {
+            document.getElementById("icons-31").src = "media/icons/route-1.png";
+            document.getElementById("icons-32").src = "media/icons/chip-2.png";
+            document.getElementById("icons-33").src = "media/icons/battery-2.png";
+            document.getElementById("icons-34").src = "media/icons/voice-2.png";
+
+            document.getElementById("text-31").classList.remove("d-none");
+            document.getElementById("text-32").classList.add("d-none");
+            document.getElementById("text-33").classList.add("d-none");
+            document.getElementById("text-34").classList.add("d-none");
+        });
+
+        document.getElementById("icons-32").addEventListener("click", function () {
+            document.getElementById("icons-31").src = "media/icons/route-2.png";
+            document.getElementById("icons-32").src = "media/icons/chip-1.png";
+            document.getElementById("icons-33").src = "media/icons/battery-2.png";
+            document.getElementById("icons-34").src = "media/icons/voice-2.png";
+
+            document.getElementById("text-31").classList.add("d-none");
+            document.getElementById("text-32").classList.remove("d-none");
+            document.getElementById("text-33").classList.add("d-none");
+            document.getElementById("text-34").classList.add("d-none");
+        });
+
+        document.getElementById("icons-33").addEventListener("click", function () {
+            document.getElementById("icons-31").src = "media/icons/route-2.png";
+            document.getElementById("icons-32").src = "media/icons/chip-2.png";
+            document.getElementById("icons-33").src = "media/icons/battery-1.png";
+            document.getElementById("icons-34").src = "media/icons/voice-2.png";
+
+            document.getElementById("text-31").classList.add("d-none");
+            document.getElementById("text-32").classList.add("d-none");
+            document.getElementById("text-33").classList.remove("d-none");
+            document.getElementById("text-34").classList.add("d-none");
+        });
+
+        document.getElementById("icons-34").addEventListener("click", function () {
+            document.getElementById("icons-31").src = "media/icons/route-2.png";
+            document.getElementById("icons-32").src = "media/icons/chip-2.png";
+            document.getElementById("icons-33").src = "media/icons/battery-2.png";
+            document.getElementById("icons-34").src = "media/icons/voice-1.png";
+
+            document.getElementById("text-31").classList.add("d-none");
+            document.getElementById("text-32").classList.add("d-none");
+            document.getElementById("text-33").classList.add("d-none");
+            document.getElementById("text-34").classList.remove("d-none");
+        });
+    </script>
 
     <!--    wasnt enough-->
-    <div class="row" style="margin-top: 400px">
-        <div class="col-12 px-0 text-center">
-            <span class="text-center argo-big-title">WASN'T ENOUGH?</span><br>
-            <span class="argo-under-title">Argo is plenty of features!<br>Discover them all here below</span>
-        </div>
-    </div>
+    <!--    <div class="row" style="margin-top: 400px">-->
+    <!--        <div class="col-12 px-0 text-center">-->
+    <!--            <span class="text-center argo-big-title">WASN'T ENOUGH?</span><br>-->
+    <!--            <span class="argo-under-title">Argo is plenty of features!<br>Discover them all here below</span>-->
+    <!--        </div>-->
+    <!--    </div>-->
+
+    <!---->
+    <!--    <div class="row justify-content-center m-auto" style="margin-top: 50px">-->
+    <!--        <div class="col-lg-8 col-md-6 col-sm-12">-->
+    <!--            <div class="row text-center" style="margin-top: 100px">-->
+    <!--                <div class="col-4">-->
+    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
+    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
+    <!--                </div>-->
+    <!--                <div class="col-4">-->
+    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
+    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
+    <!--                </div>-->
+    <!--                <div class="col-4">-->
+    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
+    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
+    <!--                </div>-->
+    <!---->
+    <!--            </div>-->
+    <!---->
+    <!--            <div class="row text-center" style="margin-top: 100px">-->
+    <!--                <div class="col-4">-->
+    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
+    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
+    <!--                </div>-->
+    <!--                <div class="col-4">-->
+    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
+    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
+    <!--                </div>-->
+    <!--                <div class="col-4">-->
+    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
+    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
+    <!--                </div>-->
+    <!---->
+    <!--            </div>-->
+    <!---->
+    <!--            <div class="row text-center" style="margin-top: 100px">-->
+    <!--                <div class="col-4">-->
+    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
+    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
+    <!--                </div>-->
+    <!--                <div class="col-4">-->
+    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
+    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
+    <!--                </div>-->
+    <!--                <div class="col-4">-->
+    <!--                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 150px">-->
+    <!--                    <span class="font-weight-bold argo-title">FEATURE</span>-->
+    <!--                </div>-->
+    <!---->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
 
 
-    <div class="row justify-content-center m-auto" style="margin-top: 50px">
-        <div class="col-lg-8 col-md-6 col-sm-12">
-            <div class="row text-center" style="margin-top: 100px">
-                <div class="col-4">
-                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 200px">
-                    <span class="font-weight-bold argo-title">FEATURE</span>
-                </div>
-                <div class="col-4">
-                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 200px">
-                    <span class="font-weight-bold argo-title">FEATURE</span>
-                </div>
-                <div class="col-4">
-                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 200px">
-                    <span class="font-weight-bold argo-title">FEATURE</span>
-                </div>
-
-            </div>
-
-            <div class="row text-center" style="margin-top: 100px">
-                <div class="col-4">
-                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 200px">
-                    <span class="font-weight-bold argo-title">FEATURE</span>
-                </div>
-                <div class="col-4">
-                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 200px">
-                    <span class="font-weight-bold argo-title">FEATURE</span>
-                </div>
-                <div class="col-4">
-                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 200px">
-                    <span class="font-weight-bold argo-title">FEATURE</span>
-                </div>
-
-            </div>
-
-            <div class="row text-center" style="margin-top: 100px">
-                <div class="col-4">
-                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 200px">
-                    <span class="font-weight-bold argo-title">FEATURE</span>
-                </div>
-                <div class="col-4">
-                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 200px">
-                    <span class="font-weight-bold argo-title">FEATURE</span>
-                </div>
-                <div class="col-4">
-                    <img src="media/icons/telecamera.png" class="img-fluid d-block m-auto" style="height: 200px">
-                    <span class="font-weight-bold argo-title">FEATURE</span>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <div class="row" style="margin-top: 400px">
-        <div class="col-12 px-0 text-center">
-            <span class="text-center argo-big-title">HOW IT'S MADE</span><br>
-        </div>
-
-        <div class="col-6 mt-5 text-center">
-            <div class="font-weight-bold argo-title" style="padding-top: 70px;">
-                Technical component
-            </div>
-            <span class="argo-text text-center"
-                  style="padding-top: 70px;">Breve spiegazione per ogni singolo componente</span>
-
-        </div>
-        <div class="col-6 mt-5"><img src="media/argo/Group%2056.png" class="m-auto d-block"></div>
-    </div>
+    <!--    <div class="row" style="margin-top: 400px">-->
+    <!--        <div class="col-12 px-0 text-center">-->
+    <!--            <span class="text-center argo-big-title">HOW IT'S MADE</span><br>-->
+    <!--        </div>-->
+    <!---->
+    <!--        <div class="col-6 mt-5 text-center">-->
+    <!--            <div class="font-weight-bold argo-title" style="padding-top: 70px;">-->
+    <!--                Technical component-->
+    <!--            </div>-->
+    <!--            <span class="argo-text text-center"-->
+    <!--                  style="padding-top: 70px;">Breve spiegazione per ogni singolo componente</span>-->
+    <!---->
+    <!--        </div>-->
+    <!--        <div class="col-6 mt-5"><img src="media/argo/Group%2056.png" class="m-auto d-block img-fluid"></div>-->
+    <!--    </div>-->
 
 
     <!--COMING SOON-->
-    <div class="row" style="margin-top: 400px">
+    <div class="row px-5" style="margin-top: 400px;">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title">COMING SOON</span><br>
             <hr class="" width="20%">
@@ -269,12 +475,13 @@
 
             <input name="emailSubscription" type="text" class="form-control justify-content-center m-auto"
                    placeholder="EMAIL"
-                   style="border-radius: 15px;margin-top:90px !important;width: 600px;font-size: 20px;">
+                   style="border-radius: 15px;margin-top:40px !important;max-width: 500px;font-size: 20px;">
             <input type="button" class="form-control justify-content-center m-auto text-white" value="SIGN ME UP"
                    style="border-radius: 15px;margin-top:30px !important;width: 200px;font-size: 20px;background-color: black">
         </div>
 
     </div>
+
 
     <!--MEET THE TEAM-->
     <div class="row" style="margin-top: 400px">
@@ -289,14 +496,14 @@
             <br>
             ...and who better than 3 guys who built driver less cars, drones, rockets and Mars Rovers<br> to build the future smart companion robot for your home?</span>
         </div>
-
-        <div class="col-12" style="margin-top: 200px;margin-bottom: 200px">
-            <iframe class="d-block m-auto" width="560" height="315"
-                    src="https://www.youtube.com/embed/0Ftq9X3epLU?si=7ryyRPWEGgzDevsC" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-        </div>
+        <!---->
+        <!--        <div class="col-12" style="margin-top: 200px;margin-bottom: 200px">-->
+        <!--            <iframe class="d-block m-auto" width="1120" height="630"-->
+        <!--                    src="https://www.youtube.com/embed/0Ftq9X3epLU?si=7ryyRPWEGgzDevsC" title="YouTube video player"-->
+        <!--                    frameborder="0"-->
+        <!--                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
+        <!--                    allowfullscreen></iframe>-->
+        <!--        </div>-->
 
         <div class="col-lg-6 col-md-6 col-sm-12  text-center d-block m-auto ">
             <span class="argo-text">
@@ -314,81 +521,95 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
     <div class="row" style="margin-top: 200px">
         <div class="col-lg-8 col-md-8 col-sm-12 justify-content-center m-auto">
             <div class="row">
-                <div class="col-lg-4 col-lg-4 col-sm-12" style="margin-top: 50px;">
+                <div class="col-lg-4 col-lg-4 col-sm-12 h-100" style="margin-top: 50px;">
                     <img src="media/Rectangle%204239.png" class="m-auto d-block">
                     <br>
                     <span class="argo-title font-weight-bold" style="font-size: 30px">LEONARDO BERTELLI</span><br>
-                    <span class="argo-text" style="font-size: 30px">Robotics Engineer</span><br><br>
+                    <span class="argo-text" style="font-size: 25px">Robotics Engineer</span><br><br>
                     <span class="argo-text" style="font-size: 20px;">During University he has joined Dynamis
                     PRC and Skyward. The former designs and builds autonomous driving racing cars, the latter builds and launches rockets. He has
                     2 years experience in the field of space robotics where he contributed to the NASA Mars Sample Return Campain.</span>
-                    <br><br>
-                    <img src="media/icons/image%2038.png">
-                    <img src="media/icons/image%2037.png">
+
+                    <div style="margin-top: 20px">
+                        <a href=""><img src="media/icons/image%2038.png"></a>
+                        <a href="https://www.linkedin.com/in/leonardo-bertelli-20a34816a/"><img
+                                    src="media/icons/image%2037.png"></a>
+                    </div>
+
                 </div>
 
-                <div class="col-lg-4 col-lg-4 col-sm-12" style="margin-top: 50px;">
-                    <img src="media/Rectangle%204239.png" class="m-auto d-block">
+                <div class="col-lg-4 col-lg-4 col-sm-12 h-100" style="margin-top: 50px;">
+                    <img src="media/banners/luca_acquati.png" class="m-auto d-block">
                     <br>
                     <span class="argo-title font-weight-bold" style="font-size: 30px">LUCA ACQUATI</span><br>
-                    <span class="argo-text" style="font-size: 30px">Control Engineer</span><br><br>
+                    <span class="argo-text" style="font-size: 25px">Control Engineer</span><br><br>
                     <span class="argo-text" style="font-size: 20px;">In his spare time, he has designed and built the control for an inverted pendulum and the flight code for a drone. He has 2 years experience in the automotive field, where he developed control algorithms for cutting edge brakes systems.</span>
-                    <br><br><br><br>
-                    <img src="media/icons/image%2038.png">
-                    <img src="media/icons/image%2037.png">
+<br><br>
+
+                    <div style="margin-top: 60px">
+                        <a href=""><img src="media/icons/image%2038.png"></a>
+                        <a href="https://www.linkedin.com/in/luca-acquati-ab1b60211/"><img
+                                    src="media/icons/image%2037.png"></a>
+                    </div>
+
                 </div>
 
-                <div class="col-lg-4 col-lg-4 col-sm-12" style="margin-top: 50px;">
-                    <img src="media/Rectangle%204239.png" class="m-auto d-block">
+                <div class="col-lg-4 col-lg-4 col-sm-12 h-100" style="margin-top: 50px;">
+                    <img src="media/banners/federico_sarrocco.png" class="m-auto d-block">
                     <br>
                     <span class="argo-title font-weight-bold" style="font-size: 30px">FEDERICO SARROCCO</span><br>
-                    <span class="argo-text" style="font-size: 30px">Computer Science Engineer</span><br><br>
+                    <span class="argo-text" style="font-size: 25px">Computer Science Engineer</span><br><br>
                     <span class="argo-text" style="font-size: 20px;">He has spent 4 years designing and building autonomous driving race cars in Dynamis PRC. He leads the Driverless Team, where he develops computer vision and deep
                     learning algorithms to push the car as
                     fast as possible.</span>
-                    <br><br><br>
-                    <img src="media/icons/image%2038.png">
-                    <img src="media/icons/image%2037.png">
+                    <br><br><br><br>
+                    <div style="margin-top: 10px">
+                        <a href=""><img src="media/icons/image%2038.png"></a>
+                        <a href="https://www.linkedin.com/in/federico-sarrocco-6240b5164/"><img
+                                    src="media/icons/image%2037.png"></a>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
+    <!---->
 
-    <!--MEET THE TEAM-->
+    <!--    SPOKE ABOUT US-->
     <div class="row" style="margin-top: 400px">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title" style="font-size: 25px !important;">SPOKE ABOUT US</span><br>
         </div>
     </div>
 
-    <div class="row mx-4" style="margin-top: 100px">
+    <div class="row" style="margin-top: 100px">
 
         <div class="col-lg-3 col-sm-6" style="height: 200px;margin-top: 50px">
-            <img src="media/brands/image%2031.png" class="m-auto d-block">
+            <img src="media/brands/image%2031.png" class="m-auto d-block img-fluid">
         </div>
 
         <div class="col-lg-3 col-sm-6" style="height: 200px;margin-top: 50px">
-            <img src="media/brands/image%2032.png" class="m-auto d-block">
+            <img src="media/brands/image%2032.png" class="m-auto d-block img-fluid">
         </div>
 
         <div class="col-lg-3 col-sm-6" style="height: 200px;margin-top: 10px">
-            <img src="media/brands/image%2033.png" class="m-auto d-block">
+            <img src="media/brands/image%2033.png" class="m-auto d-block img-fluid">
         </div>
 
         <div class="col-lg-3 col-sm-6" style="height: 200px">
-            <img src="media/brands/image%2034.png" class="m-auto d-block">
+            <img src="media/brands/image%2034.png" class="m-auto d-block img-fluid">
         </div>
 
         <div class="col-lg-4 col-sm-6" style="height: 200px;margin-top: 40px">
-            <img src="media/brands/image%2035.png" class="m-auto d-block">
+            <img src="media/brands/image%2035.png" class="m-auto d-block img-fluid">
         </div>
 
         <div class="col-lg-4 col-sm-6" style="height: 200px;margin-top: 40px">
-            <img src="media/brands/image%2053.png" class="m-auto d-block">
+            <img src="media/brands/image%2053.png" class="m-auto d-block img-fluid">
         </div>
 
         <div class="col-lg-4 col-sm-6" style="height: 200px">
-            <img src="media/brands/image%2054.png" class="m-auto d-block">
+            <img src="media/brands/image%2054.png" class="m-auto d-block img-fluid">
         </div>
     </div>
 
@@ -401,31 +622,40 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
 
         <div class="col-6 mt-5 text-center">
             <div class=" argo-title" style="padding-top: 70px; font-size: 25px">
-                What if the future of domestic robotics is an <b>open platform</b> where thousands of developers
-                can make Argo smarter and smarter everyday?
-                <hr style="width: 20%">
+                What if the future of domestic robotics is an open platform where
+                <br>
+                thousands of developers can make Argo smarter and smarter everyday?
+                <br>
+                <br>
                 Like Android or IOS for smartphones...
+                <br>
+                <br>
+                What if we can give you access to Argo sensors (camera, microphones, lights, ..)
+                <br>
+                and basic Argo functionalities (voice, autonomous navigation, ..) to unleash your creativity?
             </div>
             <br><br><br><br>
 
 
             <div class="col-lg-8 col-sm-12 d-block m-auto">
-                <img src="media/banners/image%2057.png" class="img-fluid" style="margin-top: 20px">
+                <img src="media/banners/banner-lock.png" class="img-fluid" style="margin-top: 20px">
             </div>
 
             <div class=" argo-title" style="padding-top: 70px; font-size: 25px">
-                What if we can give you access to Argo sensors (camera, microphones, lights, ..) and basic Argo functionalities (voice, autonomous navigation, ..) to unleash your creativity?
-                <br><br>
                 Let’s say you are a video-security Company aiming at entering the consumer market.
-                Or let’s say you a Startup developing an ed-tech toy but manufacturing is simply too much to handle. Why not join the forces together?
+<br>
+                Or let’s say you are a Startup developing an ed-tech toy but manufacturing is simply too much to handle.<br><br>
+                <b>Why not joining the forces together?</b><br><br>
+                Argo would enable you to forget about procurement, manufacturing and marketing
+
+                to focus only on delivering a great software product, instantly available in everyone’s home.
                 <br><br>
-                Argo would enable you to forget about procurement, manufacturing and marketing to  focus only
-                on delivering a great software product, instantly available in every home.
-                <br><br>
-                Do you want to be one of the first <b>Companies</b> to be present on our platform?
-                <br><br>
+                <br>Do you want to be one of the first <b>Companies</b> to be present on our platform?
+
                 We are looking forward to hearing to your idea, don’t hesitate in reaching us out!
+
             </div>
+
         </div>
     </div>
 
@@ -441,7 +671,7 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
                    style="border-radius: 15px;margin-top:20px !important;width: 600px;font-size: 20px;">
 
             <textarea name="nameSubscription" type="text" class="form-control justify-content-center m-auto"
-                   placeholder="TELL US YOUR IDEA"
+                      placeholder="TELL US YOUR IDEA"
                       style="border-radius: 15px;margin-top:20px !important;width: 600px;min-height: 200px;font-size: 20px;"></textarea>
 
             <input type="button" class="form-control justify-content-center m-auto text-white" value="SEND MESSAGE"
@@ -450,7 +680,7 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
     </div>
 
 
-    <div style="margin-bottom: 900px"></div>
+    <div style="margin-bottom: 600px"></div>
 </div>
 
 </body>

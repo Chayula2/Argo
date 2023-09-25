@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825787d3-e795-47a6-b7bd-97c0e9dc9de6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/media/banners/image 57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/brands/image 31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/brands/image 32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/brands/image 33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/brands/image 34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/brands/image 35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/brands/image 53.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/brands/image 54.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/icons/image 37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/icons/image 38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/banners/banner-lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/banners/federico_sarrocco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/banners/luca_acquati.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/banners/tmp_banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/banners/tmp_banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/banners/tmp_banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/banners/tmp_smart.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,21 +47,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "last_opened_file_path": "C:/Users/Marco/Documents/GitHub/Argo/media/brands",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marco/Documents/GitHub/Argo/media/brands&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Marco\Documents\GitHub\Argo\media\brands" />
@@ -84,6 +85,10 @@
       <workItem from="1690966773569" duration="6232000" />
       <workItem from="1691012732363" duration="2747000" />
       <workItem from="1693134321726" duration="14610000" />
+      <workItem from="1693159767276" duration="985000" />
+      <workItem from="1693240521459" duration="1564000" />
+      <workItem from="1695565259550" duration="4153000" />
+      <workItem from="1695600837875" duration="2408000" />
     </task>
     <servers />
   </component>
