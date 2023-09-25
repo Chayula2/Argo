@@ -625,13 +625,13 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
     <div style="margin-bottom: 300px"></div>
 
 
-    <div class="row">
-        <div class="col-12" style="background-color: black;height: 200px">
-            <h5 class="argo-title d-block m-auto" style="color: white !important;padding-top: 80px">SPEAK ABOUT US!</h5>
-        </div>
+
+</div>
+<div class="row">
+    <div class="col-12" style="background-color: black;height: 200px">
+        <h5 class="argo-title d-block m-auto" style="color: white !important;padding-top: 80px">SPEAK ABOUT US!</h5>
     </div>
 </div>
-
 </body>
 
 <?php include_once "theme/foot.php"; ?>
