@@ -26,21 +26,21 @@
 
                 <ul class="navbar-nav ml-auto text-center justify-content-center  m-auto">
                     <li class=" text-center mx-4">
-                        <a class="nav-link argo-text" href="#">DISCOVER</a>
+                        <a class="nav-link argo-text" href="#discover_hook">DISCOVER</a>
                     </li>
                     <li class=" mx-4">
-                        <a class="nav-link argo-text" href="#">BUY</a>
+                        <a class="nav-link argo-text" href="#buy_hook">BUY</a>
                     </li>
                     <li class="">
-                        <a class="" href="#" style="margin-left: 70px;margin-right: 70px">
+                        <a class="" href="" style="margin-left: 70px;margin-right: 70px">
                             <img height="40" src="media/logo.png">
                         </a>
                     </li>
                     <li class=" mx-4">
-                        <a class="nav-link argo-text" href="#">ABOUT US</a>
+                        <a class="nav-link argo-text" href="#about_hook">ABOUT US</a>
                     </li>
                     <li class=" mx-4">
-                        <a class="nav-link argo-text" href="#">PLATFORM</a>
+                        <a class="nav-link argo-text" href="#platform">PLATFORM</a>
                     </li>
                 </ul>
             </div>
@@ -58,7 +58,7 @@
         </div>
     </div>
 
-    <div class="row" style="margin-top: 100px">
+    <div class="row" style="margin-top: 100px" id="discover_hook">
         <div class="col-lg-6 col-md-6 col-sm-10 justify-content-center m-auto text-center">
             <span class="argo-title font-weight-bold">THE SMART COMPANION ROBOT<br> FOR YOUR FAMILY</span>
             <p class="argo-text" style="margin-top: 100px">Have you ever been worried about your elderly relatives
@@ -401,7 +401,7 @@
 
 
     <!--COMING SOON-->
-    <div class="row px-5" style="margin-top: 400px;">
+    <div class="row px-5" style="margin-top: 400px;" id="buy_hook">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title">COMING SOON</span><br>
             <hr class="" width="20%">
@@ -419,7 +419,7 @@
 
 
     <!--MEET THE TEAM-->
-    <div class="row" style="margin-top: 400px">
+    <div class="row" style="margin-top: 400px" id="about_hook">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title">MEET THE TEAM</span><br>
 
@@ -557,7 +557,7 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
 
 
     <div style="margin-top: 400px"></div>
-    <div class="row justify-content-center m-auto">
+    <div class="row justify-content-center m-auto" id="platform">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title">PLATFORM</span><br>
         </div>
@@ -633,6 +633,19 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
     </div>
 </div>
 </body>
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+</script>
 
 <?php include_once "theme/foot.php"; ?>
 
