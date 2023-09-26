@@ -12,6 +12,8 @@
     <meta name="author" content="Argo">
     <meta name="robots" content="index, follow">
 
+    <link rel="icon" href="../media/argo/favicon.webp" type="image/x-icon">
+
     <!-- Metadati per i social media -->
     <meta property="og:title" content="Argo">
     <meta property="og:description" content="Argo can easily meet your needs. A smart companion robot equipped with sophisticated sensors and AI algorithms to keep your home safe">
