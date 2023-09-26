@@ -94,7 +94,7 @@
 
 
     <!--foto faded-->
-    <div class="row mb-5 " style="margin-top: 200px">
+    <div class="row mb-5 " style="margin-top: 150px">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title">SMART</span><br>
             <span class="argo-under-title">AN AI POWERED HOMEBOT</span>
@@ -106,7 +106,7 @@
 
     <div class="row">
         <div class="justify-content-center m-auto col-lg-6 col-md-6 col-sm-12">
-            <div class="row" style="margin-top: 150px">
+            <div class="row" style="margin-top: 50px">
                 <div class="col-3 justify-content-center m-auto">
                     <img src="media/icons/route-1.png" height="50px" id="icons-11" onclick=""
                          class="icons d-block m-auto">
@@ -197,7 +197,7 @@
 
 
     <!--foto faded-->
-    <div class="row mb-5" style="margin-top: 350px">
+    <div class="row mb-5" style="margin-top: 250px">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title" style="overflow-wrap: break-word;
             word-wrap: break-word;
@@ -211,7 +211,7 @@
 
     <div class="row">
         <div class="justify-content-center m-auto col-lg-6 col-md-6 col-sm-12">
-            <div class="row" style="margin-top: 150px">
+            <div class="row" style="margin-top: 50px">
                 <div class="col-3 justify-content-center m-auto">
                     <img src="media/icons/foglio-1.png" height="50px" id="icons-21" onclick=""
                          class="icons d-block m-auto">
@@ -302,12 +302,12 @@
 
 
     <!--foto faded-->
-    <div class="row mb-5" style="margin-top: 350px">
+    <div class="row mb-5" style="margin-top: 250px">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title" style="overflow-wrap: break-word;
             word-wrap: break-word;
             word-break: break-word;">ENTERTAINMENT</span><br>
-            <span class="argo-under-title">let ARGO bring more joy in YOUR DAILY LIFE</span>
+            <span class="argo-under-title text-uppercase" >bring joy in your daily life</span>
         </div>
     </div>
     <img class="w-80 m-auto justify-content-center d-block img-fluid px-5" style="margin-top: 200px;max-height: 650px"
@@ -316,7 +316,7 @@
 
     <div class="row">
         <div class="justify-content-center m-auto col-lg-6 col-md-6 col-sm-12">
-            <div class="row" style="margin-top: 150px">
+            <div class="row" style="margin-top: 50px">
                 <div class="col-3 justify-content-center m-auto">
                     <img src="media/icons/sound-1.png" height="50px" id="icons-31" onclick=""
                          class="icons d-block m-auto">
@@ -406,7 +406,7 @@
     </script>
 
     <!--    wasnt enough-->
-        <div class="row" style="margin-top: 400px">
+        <div class="row" style="margin-top: 200px">
             <div class="col-12 px-0 text-center">
                 <span class="text-center argo-big-title">WASN'T ENOUGH?</span><br>
                 <span class="argo-under-title">Argo is plenty of features!<br>Discover them all here below</span>
@@ -420,7 +420,7 @@
 
 
     <!--COMING SOON-->
-    <div class="row px-5" style="margin-top: 400px;" id="buy_hook">
+    <div class="row px-2" style="margin-top: 200px;" id="buy_hook">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title">COMING SOON</span><br>
             <hr class="" width="20%">
@@ -438,7 +438,7 @@
 
 
     <!--MEET THE TEAM-->
-    <div class="row" style="margin-top: 400px" id="about_hook">
+    <div class="row" style="margin-top: 220px" id="about_hook">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title">MEET THE TEAM</span><br>
 
@@ -450,33 +450,15 @@
             <br>
             ...and who better than 3 guys who built driver less cars, drones, rockets and Mars Rovers<br> to build the future smart companion robot for your home?</span>
         </div>
-        <!---->
-        <!--        <div class="col-12" style="margin-top: 200px;margin-bottom: 200px">-->
-        <!--            <iframe class="d-block m-auto" width="1120" height="630"-->
-        <!--                    src="https://www.youtube.com/embed/0Ftq9X3epLU?si=7ryyRPWEGgzDevsC" title="YouTube video player"-->
-        <!--                    frameborder="0"-->
-        <!--                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
-        <!--                    allowfullscreen></iframe>-->
-        <!--        </div>-->
-
-        <div class="col-lg-6 col-md-6 col-sm-12  text-center d-block m-auto ">
-            <span class="argo-text">
-                Tortor dignissim convallis aenean et tortor at risus. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Consequat id porta nibh venenatis cras sed felis eget velit.
-<br><br>
-Suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Tellus mauris a diam maecenas sed. Sed euismod nisi porta lorem mollis aliquam ut. Donec ultrices tincidunt arcu non sodales. Imperdiet dui accumsan sit amet nulla facilisi.
-<br><br>
-Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante. Neque gravida in fermentum et sollicitudin ac.
-            </span>
-        </div>
 
     </div>
 
 
-    <div class="row" style="margin-top: 200px">
+    <div class="row" style="margin-top: 80px">
         <div class="col-lg-8 col-md-8 col-sm-12 justify-content-center m-auto">
             <div class="row">
                 <div class="col-lg-4 col-lg-4 col-sm-12 h-100" style="margin-top: 50px;">
-                    <img src="media/Rectangle%204239.png" class="m-auto d-block">
+                    <img src="media/Rectangle%204239.png" class="m-auto d-block img-fluid">
                     <br>
                     <span class="argo-title font-weight-bold" style="font-size: 30px">LEONARDO BERTELLI</span><br>
                     <span class="argo-text" style="font-size: 25px">Robotics Engineer</span><br><br>
@@ -493,7 +475,7 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
                 </div>
 
                 <div class="col-lg-4 col-lg-4 col-sm-12 h-100" style="margin-top: 50px;">
-                    <img src="media/banners/luca_acquati.png" class="m-auto d-block">
+                    <img src="media/banners/luca_acquati.png" class="m-auto d-block img-fluid">
                     <br>
                     <span class="argo-title font-weight-bold" style="font-size: 30px">LUCA ACQUATI</span><br>
                     <span class="argo-text" style="font-size: 25px">Control Engineer</span><br><br>
@@ -509,7 +491,7 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
                 </div>
 
                 <div class="col-lg-4 col-lg-4 col-sm-12 h-100" style="margin-top: 50px;">
-                    <img src="media/banners/federico_sarrocco.png" class="m-auto d-block">
+                    <img src="media/banners/federico_sarrocco.png" class="m-auto d-block img-fluid">
                     <br>
                     <span class="argo-title font-weight-bold" style="font-size: 30px">FEDERICO SARROCCO</span><br>
                     <span class="argo-text" style="font-size: 25px">Computer Science Engineer</span><br><br>
@@ -532,18 +514,18 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
 
 
 <!--    video-->
-<div class="row" style="margin-top: 400px">
-    <iframe class="d-block m-auto" width="960" height="540" src="https://www.youtube.com/embed/0Ftq9X3epLU?si=qaW2cDDUqex8RJyn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="row" style="margin-top: 300px">
+    <iframe class="d-block m-auto px-3" width="960" height="540" src="https://www.youtube.com/embed/0Ftq9X3epLU?si=qaW2cDDUqex8RJyn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
     <!--    SPOKE ABOUT US-->
-    <div class="row" style="margin-top: 400px">
+    <div class="row" style="margin-top: 200px">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title" style="font-size: 25px !important;">SPOKE ABOUT US</span><br>
         </div>
     </div>
 
-    <div class="row" style="margin-top: 100px">
+    <div class="row" style="margin-top: 50px">
 
         <div class="col-lg-3 col-sm-6" style="height: 200px;margin-top: 50px">
             <img src="media/brands/image%2031.png" class="m-auto d-block img-fluid">
@@ -575,7 +557,7 @@ Quis auctor elit sed vulputate mi sit amet mauris. Aliquet risus feugiat in ante
     </div>
 
 
-    <div style="margin-top: 400px"></div>
+    <div style="margin-top: 300px"></div>
     <div class="row justify-content-center m-auto" id="platform">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title">PLATFORM</span><br>
