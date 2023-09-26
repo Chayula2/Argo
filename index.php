@@ -18,10 +18,29 @@
     <nav class="navbar navbar-expand-lg navbar-dark justify-content-center text-center"
          style="background-color: #000000">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" onclick="document.getElementById('navbarNavSM').classList.toggle('d-none');"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <div class="w-100 d-none" id="navbarNavSM">
+                <ul class="navbar-nav ml-auto text-center justify-content-center  m-auto">
+                    <li class=" text-center mx-4">
+                        <a class="nav-link argo-text" href="#discover_hook">DISCOVER</a>
+                    </li>
+                    <li class=" mx-4">
+                        <a class="nav-link argo-text" href="#buy_hook">BUY</a>
+                    </li>
+                    <li class=" mx-4">
+                        <a class="nav-link argo-text" href="#about_hook">ABOUT US</a>
+                    </li>
+                    <li class=" mx-4">
+                        <a class="nav-link argo-text" href="#platform">PLATFORM</a>
+                    </li>
+                </ul>
+            </div>
+
+
             <div class="collapse navbar-collapse w-100" id="navbarNav">
 
                 <ul class="navbar-nav ml-auto text-center justify-content-center  m-auto">
@@ -183,7 +202,7 @@
             <span class="text-center argo-big-title" style="overflow-wrap: break-word;
             word-wrap: break-word;
             word-break: break-word;">SECURITY</span><br>
-            <span class="argo-under-title">CONTROL YOUR HOME from everywhere</span>
+            <span class="argo-under-title">CONTROL YOUR HOME</span>
         </div>
     </div>
     <img class="w-80 m-auto justify-content-center d-block img-fluid px-5" style="margin-top: 200px;max-height: 650px"
