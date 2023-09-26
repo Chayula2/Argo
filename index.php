@@ -220,10 +220,10 @@
                     <img src="media/icons/cctv-2.png" height="50px" id="icons-22" class="icons d-block m-auto">
                 </div>
                 <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/battery-2.png" height="50px" id="icons-23" class="icons d-block m-auto">
+                    <img src="media/icons/onde-2.png" height="50px" id="icons-23" class="icons d-block m-auto">
                 </div>
                 <div class="col-3 justify-content-center m-auto">
-                    <img src="media/icons/voice-2.png" height="50px" id="icons-24" class="icons d-block m-auto">
+                    <img src="media/icons/tmperatr-2.png" height="50px" id="icons-24" class="icons d-block m-auto">
                 </div>
             </div>
         </div>
