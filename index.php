@@ -1,5 +1,9 @@
-<?php include_once "theme/head.php"; ?>
-<?php require "class/Core.php";?>
+<?php include_once "theme/head.php";
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+?>
 <style>
     @media (min-width: 700px) {
         .icons {
