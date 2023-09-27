@@ -20,5 +20,6 @@ if (isset($_POST['emailSubscription'])) {
     if (!$conn->query($sql) === TRUE) {
         echo "Errore nell'inserimento del record: " . $conn->error;
     }
-    header("../index.php");
+    header("Location: ../../index.php");
 }
+header("Location: ../../index.php");
