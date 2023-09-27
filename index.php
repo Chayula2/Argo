@@ -1,4 +1,5 @@
 <?php include_once "theme/head.php"; ?>
+<?php require "class/Core.php";?>
 <style>
     @media (min-width: 700px) {
         .icons {
@@ -426,10 +427,11 @@
             <hr class="" width="20%">
             <span class="argo-text text-center" style="padding-top: 70px;">Argo is getting ready for launch.<br>
         Stay tuned for exciting updates!</span>
-
-            <input name="emailSubscription" type="text" class="form-control justify-content-center m-auto"
-                   placeholder="EMAIL"
-                   style="border-radius: 15px;margin-top:40px !important;max-width: 500px;font-size: 20px;">
+            <form method="post" action="class/form/getEmail.php">
+                <input name="emailSubscription" type="text" class="form-control justify-content-center m-auto"
+                       placeholder="EMAIL"
+                       style="border-radius: 15px;margin-top:40px !important;max-width: 500px;font-size: 20px;">
+            </form>
             <input type="button" class="form-control justify-content-center m-auto text-white" value="SIGN ME UP"
                    style="border-radius: 15px;margin-top:30px !important;width: 200px;font-size: 20px;background-color: black">
         </div>

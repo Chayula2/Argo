@@ -2,10 +2,10 @@
 
 class DBConnection
 {
-    private $host = "nome_host";
-    private $username = "nome_utente";
-    private $password = "password";
-    private $dbName = "nome_database";
+    private $host = "argoroaog.mysql.db";
+    private $username = "argoroaog";
+    private $password = "aR8wr9aDaUL8VeXRzDX3";
+    private $dbName = "argoroaog";
 
     public $conn;
 
