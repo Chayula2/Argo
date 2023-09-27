@@ -435,9 +435,10 @@ error_reporting(E_ALL);
                 <input name="emailSubscription" type="text" class="form-control justify-content-center m-auto"
                        placeholder="EMAIL"
                        style="border-radius: 15px;margin-top:40px !important;max-width: 500px;font-size: 20px;">
-            </form>
+
             <input type="submit" class="form-control justify-content-center m-auto text-white" value="SIGN ME UP"
                    style="border-radius: 15px;margin-top:30px !important;width: 200px;font-size: 20px;background-color: black">
+            </form>
         </div>
 
     </div>
