@@ -1,7 +1,4 @@
 <?php include_once "theme/head.php";
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 
 ?>
 <style>
@@ -428,6 +425,11 @@ error_reporting(E_ALL);
     <div class="row px-2" style="margin-top: 200px;" id="buy_hook">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title">COMING SOON</span><br>
+            <?php if ($_GET["newSub"] == "true"){
+                echo '<div class="my-4">
+                    <div class="badge badge-success text-white w-100 py-2 argo-under-title">Subscription successful!</div>
+                </div>';
+            } ?>
             <hr class="" width="20%">
             <span class="argo-text text-center" style="padding-top: 70px;">Argo is getting ready for launch.<br>
         Stay tuned for exciting updates!</span>
@@ -570,6 +572,14 @@ error_reporting(E_ALL);
             <span class="text-center argo-big-title">PLATFORM</span><br>
         </div>
 
+        <?php if ($_GET["newText"] == "true"){
+            echo '<div class="col-12">
+                    <div class="my-4">
+                        <div class="badge badge-success text-white w-100 py-2 argo-under-title">The message has been successfully sent!</div>
+                    </div>
+                </div>';
+        } ?>
+
         <div class="col-lg-6 col-sm-8 mt-5 text-center">
             <div class=" argo-title" style="padding-top: 70px; font-size: 25px">
                 What if the future of domestic robotics is an open platform where
@@ -612,20 +622,22 @@ error_reporting(E_ALL);
 
     <div class="row  justify-content-center m-auto" style="margin-top: 100px">
         <div class="col-lg-6 col-sm-12">
-            <input name="nameSubscription" type="text" class="form-control justify-content-center m-auto w-100"
-                   placeholder="FULL NAME"
-                   style="border-radius: 15px;margin-top:90px !important;width: 600px;font-size: 20px;">
+            <form method="post" action="class/form/getText.php">
+                <input name="nameSubscription" type="text" required class="form-control justify-content-center m-auto w-100"
+                       placeholder="FULL NAME"
+                       style="border-radius: 15px;margin-top:90px !important;width: 600px;font-size: 20px;">
 
-            <input name="nameSubscription" type="text" class="form-control justify-content-center m-auto w-100"
-                   placeholder="EMAIL ADDRESS"
-                   style="border-radius: 15px;margin-top:20px !important;width: 600px;font-size: 20px;">
+                <input name="emailSubscription" type="email" required class="form-control justify-content-center m-auto w-100"
+                       placeholder="EMAIL ADDRESS"
+                       style="border-radius: 15px;margin-top:20px !important;width: 600px;font-size: 20px;">
 
-            <textarea name="nameSubscription" type="text" class="form-control justify-content-center m-auto w-100"
-                      placeholder="TELL US YOUR IDEA"
-                      style="border-radius: 15px;margin-top:20px !important;width: 600px;min-height: 200px;font-size: 20px;"></textarea>
+                <textarea name="textSubscription" type="text" required class="form-control justify-content-center m-auto w-100"
+                          placeholder="TELL US YOUR IDEA"
+                          style="border-radius: 15px;margin-top:20px !important;width: 600px;min-height: 200px;font-size: 20px;"></textarea>
 
-            <input type="button" class="form-control justify-content-center m-auto text-white" value="SEND MESSAGE"
-                   style="border-radius: 15px;margin-top:30px !important;width: 200px;font-size: 20px;background-color: black">
+                <input type="submit" class="form-control justify-content-center m-auto text-white" value="SEND MESSAGE"
+                       style="border-radius: 15px;margin-top:30px !important;width: 200px;font-size: 20px;background-color: black">
+            </form>
         </div>
     </div>
 
