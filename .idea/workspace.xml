@@ -4,8 +4,6 @@
     <list default="true" id="825787d3-e795-47a6-b7bd-97c0e9dc9de6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Core.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/DBConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/DBConnection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/form/getEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/form/getEmail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +86,7 @@
       <workItem from="1695711895039" duration="47000" />
       <workItem from="1695726057023" duration="1260000" />
       <workItem from="1695747493061" duration="4973000" />
+      <workItem from="1695774225857" duration="66000" />
     </task>
     <servers />
   </component>

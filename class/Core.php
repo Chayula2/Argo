@@ -1,4 +1,6 @@
 <?php
+require "DBConnection.php";
+
 class Core extends DBConnection {
     public function __construct() {
         parent::__construct();
