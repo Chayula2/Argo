@@ -339,20 +339,20 @@
     <!--    blocco con logica-->
     <div class="row justify-content-center mt-5  px-3">
         <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center" id="text-31">
-            <span class="text-center font-weight-bold argo-title">Remote Control</span><br><br>
-            <span class="argo-text mt-4">No matter where you are, thanks to Argo’s app you can always monitor what is going on in your house. Just move Argo around your home and check with your eyes that everything is under control.</span>
+            <span class="text-center font-weight-bold argo-title">A Premium Speaker for your music</span><br><br>
+            <span class="argo-text mt-4">Do you like good music and dancing? Do you like listening to your favorite songs while cooking, studying or working? Argo can play your best songs with its premium speaker. You will have music in every room of your home. Just call Argo and ask him to turn the music on.</span>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center d-none" id="text-32">
-            <span class="text-center font-weight-bold argo-title">Autonomous Home Patroling</span><br><br>
-            <span class="argo-text mt-4">Argo is also able to monitor your house fully autonomously. It will keep checking every corner in every room looking for suspicious activities. In case Argo finds something strange, it will push a notification to your phone reporting you about the problem detected.</span>
+            <span class="text-center font-weight-bold argo-title">ED-TECH games for your kids</span><br><br>
+            <span class="argo-text mt-4">Argo can be the ideal playmate for your kids. Just let them dance with it or drive it around your home. But Argo is even more: it is full of educational games involving Math, English and Robotics as well.  With Argo, your kids can have fun and learn at the same time.</span>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center d-none" id="text-33">
-            <span class="text-center font-weight-bold argo-title">Anomaly Sound Detection</span><br><br>
-            <span class="argo-text mt-4">Have you heard the sound of a glass breaking in your house? Or was it a baby crying? Don’t worry, Argo is able to recognize these sounds and report you what it is really going on.</span>
+            <span class="text-center font-weight-bold argo-title">Take memories with your family</span><br><br>
+            <span class="argo-text mt-4">You want to keep more memories with your family? Maybe you like also to have funny selfies with your pets? Argo will take you photo anytime you ask for it. You will have tons fo new photos to remember your best moments and to share them with your friends.</span>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center d-none" id="text-34">
-            <span class="text-center font-weight-bold argo-title">Temperature and Gas Monitoring</span><br><br>
-            <span class="argo-text mt-4">“Did I close or not the stove?” Dangerous gas leakages will no longer be a problem. Argo will detect them and advise you in time before anything bad may happen to your family.</span>
+            <span class="text-center font-weight-bold argo-title">Autonomous Drink Delivery</span><br><br>
+            <span class="argo-text mt-4">Have you come back home after a stressful day at the office and you just sat on the sofa? Would you like a cold drink? Just ask Argo, it will bring it to you 100% autonomously. Leave your drinks in the charging station, then Argo will take and bring them to you anytime you want.</span>
         </div>
     </div>
 
