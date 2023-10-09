@@ -352,7 +352,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center d-none" id="text-34">
             <span class="text-center font-weight-bold argo-title">Autonomous Drink Delivery</span><br><br>
-            <span class="argo-text mt-4">Have you come back home after a stressful day at the office and you just sat on the sofa? Would you like a cold drink? Just ask Argo, it will bring it to you 100% autonomously. Leave your drinks in the charging station, then Argo will take and bring them to you anytime you want.</span>
+            <span class="argo-text mt-4">Have you come back home after a stressful day at the office and you just sat on the sofa? Would you like a cold drink? Just ask Argo, it will bring it to you 100% autonomously.<br> Leave your drinks in the charging station, then Argo will take and bring them to you anytime you want.</span>
         </div>
     </div>
 
