@@ -340,7 +340,7 @@
     <div class="row justify-content-center mt-5  px-3">
         <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center" id="text-31">
             <span class="text-center font-weight-bold argo-title">A Premium Speaker for your music</span><br><br>
-            <span class="argo-text mt-4">Do you like good music and dancing? Do you like listening to your favorite songs while cooking, studying or working? Argo can play your best songs with its premium speaker. You will have music in every room of your home. Just call Argo and ask him to turn the music on.</span>
+            <span class="argo-text mt-4">Do you like good music and dancing? Do you like listening to your favorite songs while cooking, studying or working? Argo can play your best songs with its premium speaker. You will have music in every room of your home.<br> Just call Argo and ask him to turn the music on.</span>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 px-0 text-center d-none" id="text-32">
             <span class="text-center font-weight-bold argo-title">ED-TECH games for your kids</span><br><br>
