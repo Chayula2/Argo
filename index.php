@@ -12,6 +12,23 @@
         max-width: 100%;
         overflow-x: hidden;
     }
+
+    .container1:hover .overlay1 {
+        opacity: 1;
+    }
+
+    .overlay1 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: white;
+    }
 </style>
 <body>
 
@@ -88,7 +105,7 @@
                 <br>
                 <br>
                 Argo can easily meet your needs. A smart companion robot equipped with sophisticated sensors and AI
-                algorithms to keep your home safe and entertain your family.<br> Vocal assistant, video-surveillance and
+                algorithms to keep your home safe and entertain your family. Vocal assistant, video-surveillance and
                 autonomous navigation. <br>This is just a taste of what this robot can do. Argo is the ideal companion
                 whether you are at home or not.</p>
         </div>
@@ -414,8 +431,79 @@
                 <span class="argo-under-title">Argo is plenty of features!<br>Discover them all here below</span>
                 <br><br><br>
             </div>
-            <div class="col-lg-6 col-sm-8 d-block m-auto">
-                <img src="media/banners/tmp-block12.png" class="img-fluid d-block m-auto" style="margin-top: 20px">
+
+            <div class="col-lg-8 col-sm-12  d-block m-auto">
+                <div class="row text-center">
+                    <div class="col-4 container1 my-5">
+                        <img src="media/icons/features/family-login.png" height="80px" width="100px" id="famLog-icon">
+                        <div class="overlay1">
+                            <div class="text">Everyone in the family
+                                can access Argo from
+                                their own smartphone App</div>
+                        </div>
+                    </div>
+                    <div class="col-4 container1 my-5">
+                        <img src="media/icons/features/night-vision.png" height="100px" width="100px" id="famLog-icon">
+                        <div class="overlay1">
+                            <div class="text">Infrared camera to make Argo
+                                stay on alert also during night</div>
+                        </div>
+                    </div>
+                    <div class="col-4 container1 my-5">
+                        <img src="media/icons/features/follow-me.png" height="100px" width="100px" id="famLog-icon">
+                        <div class="overlay1">
+                            <div class="text">“Hey Argo, follow me and
+                                read my the news”</div>
+                        </div>
+                    </div>
+                    <div class="col-4 container1 my-5">
+                        <img src="media/icons/features/sensor-fusion.png" height="100px" width="100px" id="famLog-icon">
+                        <div class="overlay1">
+                            <div class="text">Argo exploits sophisticated
+                                sensors to perceive the
+                                environment as a human-like</div>
+                        </div>
+                    </div>
+                    <div class="col-4 container1 my-5">
+                        <img src="media/icons/features/call-for-help.png" height="100px" width="100px" id="famLog-icon">
+                        <div class="overlay1">
+                            <div class="text">“Hey Argo, I am in danger.
+                                Call my son for help”</div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-4 container1 my-5">
+                        <img src="media/icons/features/home-tour.png" height="80px" width="80px" id="famLog-icon">
+                        <div class="overlay1">
+                            <div class="text">“Hey Argo, take my friends
+                                to a Tour of my house”</div>
+                        </div>
+                    </div>
+                    <div class="col-4 container1 my-5">
+                        <img src="media/icons/features/comunication.png" height="80px" width="80px" id="famLog-icon">
+                        <div class="overlay1">
+                            <div class="text">Use Argo as a walkie-talkie to
+                                communicate with your family</div>
+                        </div>
+                    </div>
+                    <div class="col-4 container1 my-5">
+                        <img src="media/icons/features/motion-detection.png" height="80px" width="80px" id="famLog-icon">
+                        <div class="overlay1">
+                            <div class="text">Are you at work?
+                                Argo will warn you about
+                                any suspicious movement
+                                happening in your home</div>
+                        </div>
+                    </div>
+                    <div class="col-4 container1 my-5">
+                        <img src="media/icons/features/morning-alarm.png" height="80px" width="80px" id="famLog-icon">
+                        <div class="overlay1">
+                            <div class="text">“Hey Argo, come to wake me
+                                up tomorrow at 9:00 am”</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -450,7 +538,6 @@
     <div class="row" style="margin-top: 220px" id="about_hook">
         <div class="col-12 px-0 text-center">
             <span class="text-center argo-big-title">MEET THE TEAM</span><br>
-
         </div>
         <div class="col-12  text-center" style="margin-top: 80px">
             <span class="argo-text" style="padding-top: 70px;"><b>“How can be possible in 2022 we still do not have a personal robot in our homes?”</b><br>
@@ -469,13 +556,15 @@
                 <div class="col-lg-4 col-lg-4 col-sm-12 h-100" style="margin-top: 50px;">
                     <img src="media/Rectangle%204239.png" class="m-auto d-block img-fluid">
                     <br>
-                    <span class="argo-title font-weight-bold" style="font-size: 30px">LEONARDO BERTELLI</span><br>
-                    <span class="argo-text" style="font-size: 25px">Robotics Engineer</span><br><br>
+                    <span class="argo-title font-weight-bold" style="font-size: 20px">LEONARDO BERTELLI</span><br>
+                    <span class="argo-text" style="font-size: 18px">Robotics Engineer</span><br><br>
+                    <div style="max-height: 300px;min-height: 300px;">
                     <span class="argo-text" style="font-size: 20px;">During University he has joined Dynamis
                     PRC and Skyward. The former designs and builds autonomous driving racing cars, the latter builds and launches rockets. He has
                     2 years experience in the field of space robotics where he contributed to the NASA Mars Sample Return Campain.</span>
-
-                    <div style="margin-top: 20px">
+                    </div>
+                    <br><br>
+                    <div>
                         <a href=""><img src="media/icons/image%2038.png"></a>
                         <a href="https://www.linkedin.com/in/leonardo-bertelli-20a34816a/"><img
                                     src="media/icons/image%2037.png"></a>
@@ -486,12 +575,14 @@
                 <div class="col-lg-4 col-lg-4 col-sm-12 h-100" style="margin-top: 50px;">
                     <img src="media/banners/luca_acquati.png" class="m-auto d-block img-fluid">
                     <br>
-                    <span class="argo-title font-weight-bold" style="font-size: 30px">LUCA ACQUATI</span><br>
-                    <span class="argo-text" style="font-size: 25px">Control Engineer</span><br><br>
+                    <span class="argo-title font-weight-bold" style="font-size: 20px">LUCA ACQUATI</span><br>
+                    <span class="argo-text" style="font-size: 18px">Control Engineer</span><br><br>
+                    <div style="max-height: 300px;min-height: 300px;">
                     <span class="argo-text" style="font-size: 20px;">In his spare time, he has designed and built the control for an inverted pendulum and the flight code for a drone. He has 2 years experience in the automotive field, where he developed control algorithms for cutting edge brakes systems.</span>
-<br><br>
+                    </div>
+                        <br><br>
 
-                    <div style="margin-top: 60px">
+                    <div>
                         <a href=""><img src="media/icons/image%2038.png"></a>
                         <a href="https://www.linkedin.com/in/luca-acquati-ab1b60211/"><img
                                     src="media/icons/image%2037.png"></a>
@@ -502,13 +593,15 @@
                 <div class="col-lg-4 col-lg-4 col-sm-12 h-100" style="margin-top: 50px;">
                     <img src="media/banners/federico_sarrocco.png" class="m-auto d-block img-fluid">
                     <br>
-                    <span class="argo-title font-weight-bold" style="font-size: 30px">FEDERICO SARROCCO</span><br>
-                    <span class="argo-text" style="font-size: 25px">Computer Science Engineer</span><br><br>
+                    <span class="argo-title font-weight-bold" style="font-size: 20px">FEDERICO SARROCCO</span><br>
+                    <span class="argo-text" style="font-size: 18px">Computer Science Engineer</span><br><br>
+                    <div style="max-height: 300px;min-height: 300px;">
                     <span class="argo-text" style="font-size: 20px;">He has spent 4 years designing and building autonomous driving race cars in Dynamis PRC. He leads the Driverless Team, where he develops computer vision and deep
                     learning algorithms to push the car as
                     fast as possible.</span>
-                    <br><br><br><br>
-                    <div style="margin-top: 10px">
+                    </div>
+                    <br><br>
+                    <div>
                         <a href=""><img src="media/icons/image%2038.png"></a>
                         <a href="https://www.linkedin.com/in/federico-sarrocco-6240b5164/"><img
                                     src="media/icons/image%2037.png"></a>
@@ -530,7 +623,7 @@
     <!--    SPOKE ABOUT US-->
     <div class="row" style="margin-top: 200px">
         <div class="col-12 px-0 text-center">
-            <span class="text-center argo-big-title" style="font-size: 25px !important;">SPOKE ABOUT US</span><br>
+            <span class="text-center argo-big-title">SPOKE ABOUT US</span><br>
         </div>
     </div>
 
@@ -569,7 +662,7 @@
     <div style="margin-top: 300px"></div>
     <div class="row justify-content-center m-auto" id="platform">
         <div class="col-12 px-0 text-center">
-            <span class="text-center argo-big-title">PLATFORM</span><br>
+            <span class="text-center argo-big-title">OPEN PLATFORM</span><br>
         </div>
 
         <?php if ($_GET["newText"] == "true"){
@@ -580,9 +673,9 @@
                 </div>';
         } ?>
 
-        <div class="col-lg-6 col-sm-8 mt-5 text-center">
-            <div class=" argo-title" style="padding-top: 70px; font-size: 25px">
-                What if the future of domestic robotics is an open platform where
+        <div class="col-lg-8 col-sm-8 mt-5 text-center">
+            <div class=" argo-title" style="padding-top: 60px; font-size: 25px">
+                What if the future of domestic robotics is an <b>open platform</b> where
                 <br>
                 thousands of developers can make Argo smarter and smarter everyday?
                 <br>
@@ -594,12 +687,6 @@
                 <br>
                 and basic Argo functionalities (voice, autonomous navigation, ..) to unleash your creativity?
             </div>
-            <br><br><br><br>
-
-
-            <div class="col-lg-6 col-sm-8 d-block m-auto">
-                <img src="media/banners/banner-lock.png" class="img-fluid" style="margin-top: 20px">
-            </div>
 
             <div class=" argo-title" style="padding-top: 70px; font-size: 25px">
                 Let’s say you are a video-security Company aiming at entering the consumer market.
@@ -610,7 +697,11 @@
 
                 to focus only on delivering a great software product, instantly available in everyone’s home.
                 <br><br>
-                <br>Do you want to be one of the first <b>Companies</b> to be present on our platform?
+                <div class="col-lg-6 col-sm-8 d-block m-auto">
+                    <img src="media/banners/banner-lock.png" class="img-fluid" style="margin-top: 20px">
+                </div>
+                <br><br>
+                <br>Do you want to be one of the first <b>Companies</b> to be present on our platform?<br>
 
                 We are looking forward to hearing to your idea, don’t hesitate in reaching us out!
 

@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825787d3-e795-47a6-b7bd-97c0e9dc9de6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/media/icons/features/call-for-help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/features/comunication.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/features/family-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/features/follow-me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/features/home-tour.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/features/morning-alarm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/features/motion-detection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/features/night-vision.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/icons/features/sensor-fusion.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -59,11 +68,11 @@
       <recent name="C:\Users\Marco\Documents\GitHub\Argo\media\brands" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marco\Documents\GitHub\Argo\media\icons\features" />
       <recent name="C:\Users\Marco\Documents\GitHub\Argo\media\argo" />
       <recent name="C:\Users\Marco\Documents\GitHub\Argo\media\banners" />
       <recent name="C:\Users\Marco\Documents\GitHub\Argo\media\icons" />
       <recent name="C:\Users\Marco\Documents\GitHub\Argo\media" />
-      <recent name="C:\Users\Marco\Desktop\Argo\Argo\media" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -89,7 +98,7 @@
       <workItem from="1695775219860" duration="628000" />
       <workItem from="1696870036744" duration="1578000" />
       <workItem from="1698244687645" duration="31000" />
-      <workItem from="1699191988216" duration="205000" />
+      <workItem from="1699191988216" duration="5138000" />
     </task>
     <servers />
   </component>
