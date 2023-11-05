@@ -80,7 +80,7 @@
     </div>
 
     <div class="row" style="margin-top: 100px" id="discover_hook">
-        <div class="col-lg-6 col-md-6 col-sm-10 justify-content-center m-auto text-center">
+        <div class="col-lg-8 col-md-8 col-sm-10 justify-content-center m-auto text-center">
             <span class="argo-title font-weight-bold">THE SMART COMPANION ROBOT<br> FOR YOUR FAMILY</span>
             <p class="argo-text" style="margin-top: 100px">Have you ever been worried about your elderly relatives
                 living alone, your children at home or your naughty pets? Are you always looking for new ways to have
